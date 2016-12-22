@@ -1,0 +1,1101 @@
+@CHARSET "UTF-8";
+
+/* 热线电话 */
+.trade_top.no_address .hot_tel{ top: 10px !important;}
+
+/* index_menu */
+.index_menu{ width: 1190px; height: 40px; background-color: #0079D6; margin: 12px auto 0;}
+.index_menu .title{ width: 120px; height: 40px; line-height: 40px; font-size: 14px; text-align: center; color: #fff; text-decoration: none; float: left;}
+.index_menu .title.visited{ background-color: #0092FC;}
+.index_menu .title.hover{ background-color: #0068BA;}
+.index_menu .tuanfa{ width: 109px; height: 18px; background: url("../../images/trade/tuanfayouli.png") no-repeat; float: right; margin: 10px 15px 0 0;}
+
+/* 注册 */
+.register{ font-size: 14px;}
+.register_top{ width: 100%; height: 100px; border-bottom: 3px solid #0078D2;}
+.register_top .box{ width: 960px; height: 100px; margin: auto;}
+.register_top .logo{ width: 180px; height: 45px; float: left; margin-top: 27px;}
+.register_top .title{ font-size: 20px; color: #333; float: left; margin-top: 40px;}
+.register_top .title span{ width: 5px; height: 5px; text-align: center; line-height: 5px; font-size: 30px; float: left; margin: 10px 30px 0;}
+.register_top .re{ float: right; margin-top: 50px; font-size: 14px;}
+.register_top .re a{ text-decoration: underline;}
+.register .tab_click{ width: 1000px; margin: 45px auto 35px;}
+.register .tab_click .tab_title{ height: 40px;}
+.register .tab_click .titles{ height: 40px; border-left: 1px solid #ddd;}
+.register .tab_click .titles .title{ width: 499px; height: 39px; background-color: #F7F7F7; border-left: none; line-height: 40px;}
+.register .tab_click .titles .title.first{ width: 498px}
+.register .tab_click .titles .title.visited{ height: 40px; background-color: #fff;}
+.register .tab_click .titles .title.visited strong{ color:#FF8300;}
+.register .tab_click .tab_son{ border: 1px solid #ddd; padding-top: 45px;}
+.box1000{ width: 1000px; height: 32px; margin-bottom: 30px;}
+.box1000 .box_title{ width: 215px;  height: 32px; line-height: 32px; text-align: right; float: left;}
+.box1000 .box_text{ width: 785px; height: 32px; line-height: 32px; float: left; position: relative;}
+.box1000 input.text{ height: 30px; float: left;}
+
+.box1000 .hint{ height: 30px; padding: 0 10px; border: 1px solid #d9d9d9; background-color: #f7f7f7; line-height: 30px; float: left; margin-left: 20px; position: relative;}
+.box1000 .arrows{ width: 10px; height: 14px; background: url("../../images/trade/register_hint_arrows.png") no-repeat; position: absolute; top:8px; left: -10px;}
+.box1000 .hint.no1{ border-color: #FFBDBE; background-color: #FFEBEB; color: #FF0000;}
+.box1000 .hint.no1 .arrows{ background-position: 0 -14px;}
+.box1000 .hint.no2{ border-color: #7BBD55; background-color: #EEFFE5;}
+.box1000 .hint.no2 .arrows{ background-position: 0 -28px;}
+
+
+.box1000.username input.text{ background: url("../../images/trade/register.png") right 2px no-repeat;}
+.box1000.password input.text{ background: url("../../images/trade/register.png") right -23px no-repeat;}
+.box1000.phone_num input.text{ background: url("../../images/trade/register.png") right -48px no-repeat;}
+.box1000.company input.text{ background: url("../../images/trade/register.png") right -73px no-repeat;}
+.register .gain{ width: 120px; height: 25px; margin: -10px 0 20px 215px;}
+.register .gain.btn_gray{ background-color: #eee; color: #666;}
+.box1000 .checkbox{ float: left; margin: 10px 12px 0 0;}
+.register .submit{ width: 300px; height: 38px; margin: 0 0 25px 215px;}
+.register .tab_son img{ width: 960px; height: 200px; margin: 0 0 40px 18px;}
+.register .margin_top{margin-top:10px;}
+
+/* 登陆 */
+.login{}
+.login_top{ width: 100%; height: 100px; border-bottom: 3px solid #0078D2;}
+.login_top .box{ width: 960px; height: 100px; margin: auto;}
+.login_top .logo{ width: 180px; height: 45px; float: left; margin-top: 27px;}
+.login_top .title{ font-size: 20px; color: #333; float: left; margin-top: 40px;}
+.login_top .title span{ width: 5px; height: 5px; text-align: center; line-height: 5px; font-size: 30px; float: left; margin: 10px 30px 0;}
+.login_top .re{ float: right; margin-top: 50px; font-size: 14px;}
+.login_top .re a{ text-decoration: underline;}
+.login .main{ width: 960px; margin: auto; padding: 60px;}
+.login .main .login_img{  width: 624px; height:319px; float: left;}
+.login .main .content{ width: 315px; height: 317px; border: 1px solid #ddd; float: right; position: relative;}
+.login .main .con_title{ margin: 25px 0 10px 30px;}
+.login .main .con_text{ margin-left: 30px; margin-bottom: 25px; position: relative;}
+.login .main .code{ height: 24px; line-height: 24px; position: absolute; top: 170px; left: 30px;}
+.login .main .code span, .login .main .code input, .login .main .code a, .login .main .code img{ float: left;}
+.login .main .code img{ height: 22px; margin-left: 10px;}
+.login .main .code a{ margin: 0 0 0 5px;}
+.login .main .remember{ margin: 60px 0 15px 30px;}
+.login .main .remember span{ margin-right: 7px;}
+.login .main .remember input{ margin-right: 3px; position: relative; top: 2px;}
+.login .main .btn_yellow{ width: 250px; height: 30px; margin: 0 0 0 30px; border-radius: 5px; -moz-border-radius: 5px;}
+.login .main .forget{ margin: 15px 0 0 30px;}
+.login .main .forget span{ float: right; margin-right: 36px;}
+.login .main .third{ margin: 20px 0 0 30px;}
+.login .main .third span, .login .main .third a{ height: 17px; line-height: 17px; color: #666; float: left;}
+.login .main .third a.qq{ width: 65px; background: url("../../images/trade/third.png") no-repeat; text-indent: 25px; margin-left: 15px; cursor: pointer;}
+.login .main .third a.weibo{ width: 65px; background: url("../../images/trade/third.png") 0 -17px no-repeat; text-indent: 25px; cursor: pointer;}
+.login .main .third a.taobao{ width: 65px; background: url("../../images/trade/third.png") 0 -34px no-repeat; text-indent: 25px; cursor: pointer;}
+
+/* 首页 */
+.index .main{ width: 1190px; margin: 10px auto 0;}
+.index .trace{ width: 219px; border: 1px solid #d9d9d9; float: left;}
+.index .trace .tab_title{ height: 36px;}
+.index .trace .tab_title .titles{ height: 36px;}
+.index .trace .tab_title .title{ width: 109px; height: 36px; border-top: none; border-right: none; background-color: #f7f7f7; line-height: 36px;}
+.index .trace .tab_title .title.visited{ height: 37px; color: #FF8300; background-color: #fff;}
+.index .trace .tab_title .title.first{ border-left: none;}
+.index .trace .tab_son{ height: 191px;}
+.index .trace textarea{ width: 176px; height: 120px; float: left; margin: 15px 0 0 16px;}
+.index .trace .key_box{ float: left; margin-top: 10px;}
+.index .trace input.text{ width: 55px; float: left; margin-left: 16px;}
+.index .trace .key{ width: 55px; height: 22px; float: left; margin-left: 3px; border: 1px solid #ddd;}
+.index .trace input.select{ width: 60px; height: 24px; float: left; margin-left: 5px;}
+.index .trace .hint{ width: 100%; margin-bottom:20px; padding-top: 25px; text-indent: 10px;}
+.index .trace .addr{ height: 24px; margin-left: 10px; margin-bottom: 15px;}
+.index .trace .addr .title{ float: left;}
+.index .trace .addr .text_address{ width: 120px; float: left;}
+.index .trace .submit{ width: 200px; height: 30px; margin: 8px 0 0 9px;}
+.index #banner{ width: 630px; height:230px; overflow:hidden; float: left; margin-left: 13px; position:relative; overflow:hidden;}
+.index #banner_list img { width: 630px; height:230px;}
+.index #banner_text {position:absolute;width:120px;z-index:1002; right:3px; bottom:3px;}
+.index #banner ul { height: 10px; filter: Alpha(Opacity=80); opacity: 0.8; position: absolute; left: 265px; bottom: 8px; z-index: 1002;}
+.index #banner ul li { display: block; width: 10px; height: 10px; background: url("../../images/trade/index_banner_li.png") no-repeat; float:left; margin-right: 20px; cursor:pointer;}
+.index #banner ul li.on { background: url("../../images/trade/index_banner_li.png") 0 -10px no-repeat;}
+.index #banner_list div{ position:absolute;}
+.index .statistics{ width: 310px; height: 70px; border: 1px solid #f1f1f1; float: right; position: relative;}
+.index .statistics .date{ width: 60px; float: left; color: #333; margin-top: 1px;}
+.index .statistics .date div{ text-indent: 13px; margin-bottom: 5px;}
+.index .statistics .date .day{ font-size: 20px; font-weight: bold;}
+.index .statistics .num{ width: 230px; padding-top: 4px; float: left; margin-left: 20px;}
+.index .statistics .num div{ height: 30px; line-height: 30px; color: #333;}
+.index .statistics .num .color_orange{ font-size: 14px;}
+.index .statistics .iHaveLineToo{ width: 27px; height: 113px; background: url("../../images/trade/iHaveLineToo.gif") 0 0 no-repeat; position: absolute; top: -2px; right: -31px;}
+.index .statistics .iHaveLineToo:hover{ background: url("../../images/trade/iHaveLineToo.gif") -27px 0 no-repeat;}
+.index .news{ width: 310px; float: right; margin-top: 20px;}
+.index .news .box3_title{ width: 100%; height: 30px; border-bottom: 2px solid #0079D6; line-height: 30px; text-indent: 5px; font-size: 14px;}
+.index .news .box3_content{ height: 95px; padding-top: 9px;}
+.index .news .box3_content a{ display:block; padding-left: 25px; background: url("../../images/trade/text_list_style.png") 10px center no-repeat; color: #666; margin-bottom: 8px;}
+.index_left{ width: 864px; float: left; margin-top: 20px;}
+.index_left .lines .box3_content{ width: 875px; border: none; padding-bottom: 12px;}
+.index_left .lines .line{ width: 177px; height: 140px; border:1px solid #fff; float: left; margin: 12px 9px 0 0; position: relative; cursor: pointer;}
+.index_left .lines .line.first{ width: 300px; height: 292px;}
+.index_left .lines .line:hover{ border:1px solid #F08A12; }
+.index_left .lines .price{ width: 100%; height: 30px; background: url("../../images/trade/line_price_bg.png") repeat-x; position: absolute; top: 76px;}
+.index_left .lines .price div{ height: 15px; line-height: 15px; font-size: 10px; color: #fff; text-indent: 5px}
+.index_left .lines .line.first .price{ top: 228px;}
+.index_left .line .city{ height: 25px; margin-top: 5px;}
+.index_left .line .city div{ height: 25px; line-height: 25px; float: left;}
+.index_left .line .city .starting{ width: 60px; color: #333; text-indent: 5px;}
+.index_left .line .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 9px;}
+.index_left .line .city .arrival{ width: 106px; font-size: 14px; color: #FF8300; text-indent: 15px;}
+.index_left .line.first .city .starting{ width: 95px; float: left;}
+.index_left .line.first .city .arrival{ width: 196px; text-indent: 20px; float: left;}
+.index_left .hot_lines .box3_content{ width: 888px; border: none; padding-top: 15px;}
+.index_left .hot_lines .hot_line{ width: 200px; height: 80px; background-color: #F5F5F5; border-radius: 4px; -moz-border-radius: 4px; float: left; margin: 0 22px 16px 0; cursor: pointer;}
+.index_left .hot_lines .hot_line:hover{ background-color: #DDEEFF;}
+.index_left .hot_lines .city{ height: 30px;}
+.index_left .hot_lines .city div{ height: 30px; line-height: 30px; float: left;}
+.index_left .hot_lines .city .starting{ width: 90px; color: #0079D6; text-indent: 10px;}
+.index_left .hot_lines .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 11px;}
+.index_left .hot_lines .city .arrival{ width: 100px; color: #0079D6; text-indent: 15px;}
+.index_left .hot_lines .price{ text-indent: 10px; margin-top: 7px;}
+.index_left .return_car .box3_content{ width: 884px; border: none; padding-top: 15px;}
+.index_left .return_car .car{ width: 199px; height: 280px; border: 1px solid #ddd; float: left; margin-right: 20px; position: relative; cursor: pointer;}
+.index_left .return_car .car:hover{ border-color: #F08A12;}
+.index_left .return_car .car img{ margin: 11px 0 0 11px;}
+.index_left .return_car .car img.autoload{ margin: 0px 0px 0px 0px;}
+.index_left .return_car .city{ height: 30px;}
+.index_left .return_car .city div{ height: 30px; line-height: 30px; float: left;}
+.index_left .return_car .city .starting{ width: 78px; color: #0079D6; text-indent: 10px;}
+.index_left .return_car .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 11px;}
+.index_left .return_car .city .arrival{ width: 112px; color: #0079D6; text-indent: 15px;}
+.index_left .return_car .price{ text-indent: 10px; padding-top: 10px;}
+.index_left .return_car .price div{ margin-bottom: 10px;}
+.index_left .return_car .car .count_down{ width: 100%; height: 35px; border-top: 1px solid #ddd; background: url("../../images/trade/count_down.png") 14px center no-repeat; line-height: 35px; text-indent: 37px; position: absolute; bottom: 0;}
+.index_right{ width: 310px; float: right; margin-top: 20px;}
+.index_right .new_line{ margin-bottom: 20px;}
+.index_right .new_line .box3_content{ height: 384px; padding-top: 8px;}
+.index_right .new_line .box{ width: 282px; height: 68px; border-bottom: 1px double #f1f1f1; padding: 12px 0; margin: auto; cursor: pointer;}
+.index_right .new_line .box:hover{ background-color: #DDEEFF; }
+.index_right .new_line .box img{ float: left; margin: 4px 0 0 9px;}
+.index_right .new_line .box .info{ width: 200px; float: right;}
+.index_right .new_line .city{ margin-bottom: 5px;}
+.index_right .new_line .city .starting{ width: 55px; float: left;}
+.index_right .new_line .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; float: left; margin-top: 4px;}
+.index_right .new_line .city .arrival{ width: 135px; color: #FF8300; text-indent: 15px; float: left;}
+.index_right .robin .box3_content{ height: 284px; margin-bottom: 16px;}
+.index_right .robin ul{ padding: 25px 0 0 32px;}
+.index_right .robin li{ width: 64px; height: 70px; text-align: center; float: left; margin: 0 25px 15px 0}
+.index_right .robin li img{ width: 48px; height: 48px;}
+.index_right .robin li a.title{ display:block; height: 22px; line-height: 22px; color: #333;}
+.index_right .my_strategy .box3_title{ border: none;}
+.index_right .strategy{ width: 100%; height: 150px; background-color: #EFF4FA; margin-bottom: 11px;}
+.index_right .strategy .box{ width: 102px; text-align: center; float: left; margin: 15px 26px 0;}
+.index_right .strategy .box img{ border: 1px solid #ccc; margin-bottom: 8px;}
+.index .franchisee{ width: 1188px; height: 95px; border: 1px solid #ddd; margin-top: 15px;}
+.index .franchisee .title{ width: 20px; font-size: 14px; float: left; margin: 10px 0 0 14px;}
+.index .franchisee .franchisees{ width: 1120px; height: 60px; float: left; margin: 18px 0 0 15px; position: relative;}
+.index .franchisee .franchisees .left{ width: 16px; height: 60px; background: url(../../images/trade/arrows.gif) no-repeat; position: absolute; top: 1px;left: 0; cursor: pointer;}
+.index .franchisee .franchisees .right{ width: 16px; height: 60px; background: url(../../images/trade/arrows.gif) -16px 0 no-repeat; position: absolute; top: 1px; right: 0; cursor: pointer;}
+.index .franchisee .franchisees .ul_box{ width:1030px; height: 62px; margin: auto; overflow: hidden; position: relative;}
+.index .franchisee .franchisees ul{ height: 62px; position: absolute; left:0;}
+.index .franchisee .franchisees ul li{ float: left; margin-right: 30px;}
+.index .franchisee .franchisees ul li img{ width: 180px; height: 60px; border: 1px solid #ddd;}
+
+/* 下单1 */
+.order1 .oeder_step{width:965px;height:30px; background: url("../../images/trade/order1.png") no-repeat;}
+.order1 .main{ width: 960px; margin:10px auto 30px;}
+.order1 .box_1{ width: 958px; margin-top: 30px;}
+.order1 .box_1 .box{ width: 100%; border-bottom: 1px solid #ddd;}
+.order1 .box_1 .btitle{ font-size: 14px; color: #333; margin: 25px 0 25px 40px;}
+.order1 .box_1 .btitle a{ font-size: 12px; margin-left: 20px;}
+.order1 .box_1 .btext{ width: 880px; margin: auto;}
+.order1 .box_1 .peo_info div{ text-indent: 20px; margin-bottom: 25px;}
+.order1 .box_1 .peo_info div span{ text-indent: 0; float: left; margin: 5px;}
+.order1 .box_1 .often{ width: 100%; border-bottom: 1px solid #ddd; overflow: hidden;}
+.order1 .box_1 .more_add{ width: 99px; height: 18px; background: url(../../images/trade/more_address.png) no-repeat; float: left; margin: -1px 390px 0; cursor: pointer; position: relative; z-index: 999;}
+.order1 .box_1 .often .add_info{ width: 100%; height: 50px; line-height: 25px; margin-bottom: 5px; padding: 5px 0; position:relative;}
+.order1 .box_1 .often .add_info input{ float: left; margin: 19px 30px 0 12px; cursor: pointer;}
+.order1 .box_1 .often .add_info span{ float: left; margin-right: 10px;}
+.order1 .box_1 .often .add_info .info{ height: 50px; float: left;}
+.order1 .box_1 .often .add_info .operation{ height: 50px; line-height: 50px;position:absolute; right:10px;display: none;}
+.order1 .box_1 .often .add_info .operation a{ margin-left: 5px;}
+.order1 .box_1 .often .add_info.hover{ background-color: #EBEFFA; display: block;}
+.order1 .box_1 .often .add_info.hover .operation{ display: block;}
+.order1 .box_1 .new_add{ width: 100%; height: 35px; line-height: 35px; background-color: #F5F7FC; margin-bottom: 7px;}
+.order1 .box_1 .text_address{ margin-right: 3px;}
+.order1 .box_1 .new_add input{ float: left; margin: 11px 12px 0; cursor: pointer;}
+.order1 .box_1 .new_add_info{ width: 100%; height: 160px; padding-top: 40px; background-color: #EBEFFA; margin-bottom: 8px;}
+.order1 .box_1 .info_box{ margin: 0 0 25px 10px;}
+.order1 .box_1 .info_box .box_text{ white-space: nowrap;}
+.order1 .box_1 .info_box .box_text i{ margin-left: 20px;}
+.order1 .box_1 form .btn_yellow{ width: 120px; height: 25px; margin-bottom: 8px;}
+.order1 .box_1 .btns input{ width: 80px; height: 30px; margin-right: 40px;}
+.order1 .left_aderss{float:left; width:650px;}
+.order1 .btns{padding:20px 0; background:#f7f7f7;}
+
+/* 下单2_1 */
+.order2_1 .main{ width: 960px; margin: 20px auto 30px;}
+.order2_1 .oeder_step{width:965px;height:30px; background: url("../../images/trade/order1.png") no-repeat;}
+.order2_1 .filtrate{ margin-top: 20px;}
+.order2_1 .filtrate ul{ width: 840px; height: 20px; border-bottom: 1px dashed #eee; padding: 25px 40px; margin: auto;}
+.order2_1 .filtrate li{ width: 80px; height: 20px; line-height: 20px; text-align: center; color: #0067B9; float: left; margin-right: 65px; cursor: pointer;}
+.order2_1 .filtrate li.title{ margin-right: 0; color: #666; cursor: default;}
+.order2_1 .filtrate li.visited{ background-color: #0079D6; color: #fff;}
+.order2_1 .line_list{ margin-top: 17px;}
+.order2_1 .line_list .box1_title{ font-size: 12px; text-indent: 20px;}
+.order2_1 .line_list .sort{ height: 22px; float: left; margin-top: 4px;}
+.order2_1 .line_list .sort dt{ height: 22px; line-height: 22px; text-align: center; float: left;}
+.order2_1 .line_list .sort dd{ height: 20px; padding: 0 10px; border: 1px solid #ddd; background-color: #fff; line-height: 20px; text-align: center; text-indent: 0; float: left; margin-left: 15px; cursor: pointer;}
+.order2_1 .line_list .sort dd span{ margin-left: 5px;}
+.order2_1 .line_list .stat{ width: 250px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height: 20px; text-align: center; text-indent: 0; float: right; margin: 4px 12px 0 0;}
+.order2_1 .line_list .search_paging{ text-indent: 0; float: right; margin: 4px 12px 0 0;}
+.order2_1 .line_list .search_paging .in_all{ height: 20px; line-height:20px; float: left;}
+.order2_1 .line_list .search_paging .page_up{ width: 74px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height:20px; color: #0068BA; text-align: left; float: left; margin-left: 10px; cursor: pointer;}
+.order2_1 .line_list .search_paging .up_arrows{ width: 8px; height: 10px; background: url(../../images/trade/search_paging.png) 0 -10px no-repeat; float: left; margin: 5px 10px 0 8px;}
+.order2_1 .line_list .search_paging .page_up.not{ color: #666; cursor: default;}
+.order2_1 .line_list .search_paging .page_up.not .up_arrows{ background: url(../../images/trade/search_paging.png) 0 0 no-repeat;}
+.order2_1 .line_list .search_paging .page_down{ width: 74px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height:20px; color: #0068BA; text-align: right; float: left; margin-left: 10px; cursor: pointer;}
+.order2_1 .line_list .search_paging .down_arrows{ width: 8px; height: 10px; background: url(../../images/trade/search_paging.png) -8px -10px no-repeat; float: right; margin: 5px 8px 0 10px}
+.order2_1 .line_list .search_paging .page_down.not{ color: #666; cursor: default;}
+.order2_1 .line_list .search_paging .page_down.not .down_arrows{ background: url(../../images/trade/search_paging.png) -8px 0 no-repeat;}
+.order2_1 .line_list .lines{ width: 935px; margin: auto;}
+.order2_1 .line_list .line{ width: 100%; height: 150px; border-bottom: 1px dashed #f2f2f2; padding-bottom: 12px; margin-top: 16px;}
+.order2_1 .line_list .div1{ width: 200px; height: 148px; border: 1px solid #eee; border-radius: 5px; -moz-border-radius: 5px; float: left; margin-left: 15px;}
+.order2_1 .line_list .div1 img{ width: 177px; height: 106px; float: left; margin: 9px 0 0 11px;}
+.order2_1 .line_list .div1 .title{ width: 100%; text-align: center; float: left; margin-top: 10px;}
+.order2_1 .line_list .div2{ width: 160px; height: 160px; float: left; margin-left: 20px;}
+.order2_1 .line_list .div2 .color_orange{ font-size: 14px;}
+.order2_1 .line_list .div2 div{ height: 30px; line-height: 30px;}
+.order2_1 .line_list .div2 .grade{ margin: 20px 0 15px;}
+.order2_1 .line_list .div3{ width: 70px; height: 150px; text-align: right; float: left;}
+.order2_1 .line_list .div3 .color_orange{ margin: 50px 0 20px;}
+.order2_1 .line_list .div4{ width: 185px; height: 130px; float: left; margin-left: 40px; padding-top: 20px; position: relative;}
+.order2_1 .line_list .div4 div{ height: 30px; line-height: 30px;}
+.order2_1 .line_list .div4 .color_orange{ font-size: 16px;}
+.order2_1 .line_list .div4 .price{ width: 270px; height: auto; padding: 5px 0 7px; background-color: #FFFFD0; border: 1px solid #FFAD7A; text-indent: 20px; position: absolute; top: 120px; left: -40px; z-index: 9999; display: none;}
+.order2_1 .line_list .div4 .price .arrows{ width: 20px; height: 13px; background: url(../../images/trade/price_arrows.png) no-repeat; float: left; margin: -16px 0 0 95px;}
+.order2_1 .line_list .div4 .price .color_orange{ font-size: 12px;}
+.order2_1 .line_list .div5{ width: 110px; padding-top: 17px; float: left;}
+.order2_1 .line_list .div5 div.ope{ width: 120px; padding-left: 15px; height: auto;}
+.order2_1 .line_list .div5 div{ height: 30px; line-height: 30px; text-align: center;}
+.order2_1 .line_list .div5 a{ color: #666; text-decoration: underline;}
+.order2_1 .line_list .div5 .ope span{ width: 18px; height: 16px; background: url(../../images/trade/line_list_ope.png) no-repeat; float: left; margin: 10px 15px 5px 0;}
+.order2_1 .line_list .div5 .ope span.ope1{ background-position: 0 0;}
+.order2_1 .line_list .div5 .ope span.ope2{ background-position: 0 -16px;}
+.order2_1 .line_list .div5 .ope span.ope3{ background-position: 0 -32px;}
+.order2_1 .line_list .div5 .ope span.ope4{ background-position: 0 -48px;}
+.order2_1 .line_list .div5 .ope span.ope5{ background-position: 0 -64px;}
+.order2_1 .line_list .div5 .ope span.ope6{ background-position: 0 -80px;}
+.order2_1 .line_list .div6{ width: 130px; height: 125px; text-align: center; float: left; padding-top: 25px;}
+.order2_1 .line_list .div6 .collect{ width: 100px; height: 22px; background: url(../../images/trade/collect.png) 5px 0 no-repeat; line-height: 22px; text-align: left; text-indent: 35px; margin: 0 auto 15px; cursor: pointer;}
+.order2_1 .line_list .div6 .collectd{ width: 100px; height: 22px; background: url(../../images/trade/collect.png) 7px -22px no-repeat; line-height: 22px; text-align: left; text-indent: 35px; margin: 0 auto 15px; cursor: pointer;}
+.order2_1 .line_list .div6 .collect:hover{ background: url(../../images/trade/collect.png) 7px -22px no-repeat;}
+.order2_1 .line_list .div6 input{ width: 74px; height: 24px; margin-bottom: 18px; font-size: 12px;}
+.order2_1 .paging{ float: right;}
+.order2_1 .line_list .btns{ border-top: 1px solid #ddd; background:#f7f7f7;}
+.order2_1 .div4 a:hover{text-decoration:none;}
+
+/* 下单2_2 */
+.order2_2 .main{ width: 960px; margin: 10px auto 30px;}
+.order2_2 .oeder_step{width:965px;height:30px; background: url("../../images/trade/order2_1.png") no-repeat;}
+.order2_2 .order2_left{ width: 230px; float: left; margin-top: 30px;}
+.order2_2 .box_1{ width: 228px; padding-bottom: 8px; margin-bottom: 15px;}
+.order2_2 .box_1 .box1_title{ margin-bottom: 5px;}
+.order2_2 .box_1 div{ height: 30px; line-height: 30px; text-indent: 30px; width:100%;display:block;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis; cursor:default;}
+.order2_2 .box_1 div.display_none{display:none;}
+.order2_2 .cargo .color_orange{ font-size: 16px; margin-left: 10px;}
+.order2_2 .box228{ width: 228px; height: 24px;}
+.order2_2 .box228 .box_title{ width: 120px; height: 24px; line-height: 24px; text-align: right; float: left;}
+.order2_2 .box228 .box_text{ width: 108px; height: 24px; line-height: 24px; float: left; text-indent: 0;}
+.order2_2 .box_1 div.premium{ width: 200px; height: 40px; border-top: 1px solid #ddd; line-height:50px; margin: auto;}
+.order2_2 .order2_right{ width: 710px; border: 1px solid #ddd; float: right; margin-top: 30px;}
+.order2_2 .order_box{ width: 100%; border-bottom: 1px solid #ddd;}
+.order2_2 .order_box .title{ font-size: 14px; color: #333; text-indent: 20px; margin: 15px 0 25px;}
+.order2_2 .order_box .title i{ font-size: 11px; margin-left: 5px;}
+.order2_2 .order_box.cargo_info .checkbox{ float: left; margin: 5px 5px 0 20px;}
+.order2_2 .box_text a, .order2_2 .box .title a{ float: right; margin-right: 20px; font-size: 12px;}
+.order2_2 .box710{ width: 710px; height: 24px; margin-bottom: 25px;}
+.order2_2 .box710 input.text, .box710 .text_address, .box710 .text_date, .box710 .text_website, .box710 .spinner, .box710 .star{ float: left;}
+.order2_2 .box710 .box_title{ width: 110px; height: 24px; line-height: 24px; text-align: right; float: left;}
+.order2_2 .box710 .box_text{ width: 600px; height: 24px; line-height: 24px; float: left; position: relative;}
+.order2_2 .box710 .unit{ float: left; margin-left: 3px;}
+.order2_2 .info_box{ margin-bottom: 25px;}
+.order2_2 .cargo_info .info_box{ margin-left: 30px;}
+.order2_2 .box500{ margin-left: -10px;}
+.order2_2 .box710.notes{ height: 50px;}
+.order2_2 .box710.notes div{ height: 50px; line-height: 50px;}
+.order2_2 .box710.notes textarea{ width: 300px; height: 38px;}
+.order2_2 .calculator{ width: 128px; height: 30px; border-color: #DBDBDB; font-size: 12px; float: right; margin: 20px 10px 0 0;}
+.order2_2 .distribution .info_box{ margin-left: 10px;}
+.order2_2 .distribution .radio{ float: left; margin: 5px 20px 0 35px;}
+.order2_2 .date input.text{ margin-left: 5px;}
+.order2_2 .date .text_date{ margin-left: 10px;}
+.order2_2 .distribution .spinner{ margin-left: 10px;}
+.order2_2 .appreciation li{ width: 315px; height: 24px; padding-left: 40px; line-height: 24px; float: left; margin-bottom: 25px;}
+.order2_2 .appreciation li .unit{ float: left;}
+.order2_2 .appreciation .checkbox{ float: left; margin: 6px 8px 0 0;}
+.order2_2 .appreciation input.text{ float: none; margin: 0 2px;}
+.order2_2 .appreciation .spinner{ margin: 0 2px;}
+.order2_2 .insurance .checkbox{ float: left; margin: 6px 6px 0 0;}
+.order2_2 .insurance input.text{ margin-right: 15px;}
+.order2_2 .pay span{ width: 160px; float: left; margin-left: 35px;}
+.order2_2 .pay .radio{ float: left; margin: 2px 15px 0 0;}
+.order2_2 .pay a{ float: right; margin-right: 10px;}
+.order2_2 .btns input{ margin-left:20px;}
+.order2_2 .btns input{ width: 80px; height: 30px; }
+.order2_2 .main .box{ height: 26px; line-height: 26px; float: left;  width:180px; margin-left:20px;}
+.order2_2 .main .box .checkbox{float:left; margin:8px 10px 0;}
+
+/* 下单2_3 */
+.order2_3 .main{ width: 960px; margin: 10px auto 30px;}
+.order2_3 .oeder_step{width:965px;height:30px; background: url("../../images/trade/order2_1.png") no-repeat;}
+.order2_3 .order2_left{ width: 230px; float: left; margin-top: 30px;}
+.order2_3 .box_1{ width: 228px; padding-bottom: 8px; margin-bottom: 15px;}
+.order2_3 .box_1 .box1_title{ margin-bottom: 5px;}
+.order2_3 .box_1 div{ height: 30px; line-height: 30px; text-indent: 30px;}
+.order2_3 .cargo .color_orange{ font-size: 16px; margin-left: 10px;}
+.order2_3 .box228{ width: 228px; height: 24px;}
+.order2_3 .box228 .box_title{ width: 120px; height: 24px; line-height: 24px; text-align: right; float: left;}
+.order2_3 .box228 .box_text{ width: 108px; height: 24px; line-height: 24px; float: left; text-indent: 0;}
+.order2_3 .box_1 div.premium{ width: 200px; height: 40px; border-top: 1px solid #ddd; line-height:50px; margin: auto;}
+.order2_3 .order2_right{ width: 710px; border: 1px solid #ddd; float: right; margin-top: 30px;}
+.order2_3 .peo_info a{ margin-left: 20px; font-size: 12px;}
+.order2_3 .peo_info .info{ margin: 0 0 30px 55px;}
+.order2_3 .peo_info .info span{ margin-right: 10px;}
+.order2_3 .alter{ width:680px; margin: auto; display: none;}
+.order2_3 .alter .often{ width: 100%; border-bottom: 1px solid #ddd; overflow: hidden;}
+.order2_3 .alter .often .new_info{ width:100%; height: 50px; padding: 5px 0; cursor: default;}
+.order2_3 .alter .often .new_info span{ float: left; margin-right: 10px;}
+.order2_3 .alter .often .info1{ width: 50px; height: 40px; text-align: center; float: left;}
+.order2_3 .alter .often .info1 input{ margin-top: 18px;}
+.order2_3 .alter .often .info2{ width: 480px; height: 50px; float: left;}
+.order2_3 .alter .often .info2 div{ height: 25px; line-height: 25px;}
+.order2_3 .alter .often .info3{ height: 50px; line-height: 50px; float: left; display: none;}
+.order2_3 .alter .often .info3 a{ margin: 0 10px 0 0;}
+.order2_3 .alter .often .new_info.hover{ background-color: #EBEFFA; display: block;}
+.order2_3 .alter .often .new_info.hover .info3{ display: block;}
+.order2_3 .alter .more_add{ width: 99px; height: 18px; background: url(../../images/trade/more_address.png) no-repeat; float: left; margin: -1px 290px 0; cursor: pointer; position: relative; z-index: 999;}
+.order2_3 .alter .new_add{ width: 100%; height: 35px; line-height: 35px; background-color: #F5F7FC; margin: 7px 0;}
+.order2_3 .alter .new_add input{ float: left; margin: 11px 15px 0;}
+.order2_3 .alter .new_info_add{ width: 100%; height: 160px; padding-top: 40px; background-color: #EBEFFA; margin-bottom: 8px;}
+.order2_3 .alter .info_box .box332{ margin-left: -25px;}
+.order2_3 .alter .info_box .box_text{ white-space: nowrap;}
+.order2_3 .alter .info_box .box_text i{ margin-left: 5px; font-size: 10px;}
+.order2_3 .alter .text_address{ margin-right: 3px;}
+.order2_3 .alter .btn_yellow{ width: 120px; height: 25px; margin-bottom: 8px;}
+.order2_3 .order_box{ width: 100%; border-bottom: 1px solid #ddd; float: left;}
+.order2_3 .order_box .title{ font-size: 14px; color: #333; text-indent: 20px; padding: 15px 0 25px;}
+.order2_3 .order_box .title a{ font-size: 12px; float: right; margin-right: 20px;}
+.order2_3 .order_box .title i{ font-size: 11px; margin-left: 5px;}
+.order2_3 .order_box.cargo_info .checkbox{ float: left; margin: 5px 5px 0 20px;}
+.order2_3 .box_text a, .order2_3 .box .title a{ float: right; margin-right: 20px; font-size: 12px;}
+.order2_3 .box710{ width: 710px; height: 24px; margin-bottom: 25px;}
+.order2_3 .box710 input.text, .box710 .text_address, .box710 .text_date, .box710 .text_website, .box710 .spinner, .box710 .star{ float: left;}
+.order2_3 .box710 .box_title{ width: 110px; height: 24px; line-height: 24px; text-align: right; float: left;}
+.order2_3 .box710 .box_text{ width: 600px; height: 24px; line-height: 24px; float: left; position: relative;}
+.order2_3 .box710 .unit{ float: left; margin-left: 3px;}
+.order2_3 .info_box{ margin-bottom: 25px;}
+.order2_3 .cargo_info .info_box{ margin-left: 20px;}
+.order2_3 .cargo_info .box180{ margin-left: 10px;}
+.order2_3 .cargo_info .box510{ margin-left: -10px;}
+.order2_3 .box500{ margin-left: -10px;}
+.order2_3 .box710.notes{ height: 50px;}
+.order2_3 .box710.notes div{ height: 50px; line-height: 50px;}
+.order2_3 .box710.notes textarea{ width: 300px; height: 38px;}
+.order2_3 .calculator{ width: 128px; height: 30px; border-color: #DBDBDB; font-size: 12px; float: right; margin: 20px 10px 0 0;}
+.order2_3 .distribution .info_box{ margin-left: 10px;}
+.order2_3 .distribution .radio{ float: left; margin: 5px 20px 0 35px;}
+.order2_3 .date input.text{ margin-left: 5px;}
+.order2_3 .date .text_date{ margin-left: 10px;}
+.order2_3 .distribution .spinner{ margin-left: 10px;}
+.order2_3 .appreciation li{ width: 315px; height: 24px; padding-left: 40px; line-height: 24px; float: left; margin-bottom: 25px;}
+.order2_3 .appreciation li .unit{ float: left;}
+.order2_3 .appreciation li .li_input_span{ position: relative;} /** 增值服务里的错误样式  邓夫伟-2014-01-01*/
+.order2_3 .appreciation .checkbox{ float: left; margin: 6px 8px 0 0;}
+.order2_3 .appreciation input.text{ float: none; margin: 0 2px;}
+.order2_3 .appreciation .spinner{ margin: 0 2px;}
+.order2_3 .insurance .checkbox{ float: left; margin: 6px 6px 0 0;}
+.order2_3 .insurance input.text{ margin-right: 15px;}
+.order2_3 .main .pay span{ width: 160px; float: left; margin-left: 35px;}
+.order2_3 .main .pay .radio{ float: left; margin: 2px 15px 0 0;}
+.order2_3 .main .pay a{ float: right; margin-right: 10px;}
+.order2_3 .main .btns{ margin-left: 35px;}
+.order2_3 .main .btns input{ width: 80px; height: 30px; margin-right: 70px;}
+.order2_3 .main .box{ height: 26px; line-height: 26px; float: left;  width:180px; margin-left:20px;}
+.order2_3 .main .box .checkbox{float:left; margin:8px 10px 0;}
+
+/* 下单3 */
+.order3 .main{ width: 960px; margin: 10px auto 30px;}
+.order3 .oeder_step{width:965px;height:30px; background: url("../../images/trade/order4.png") no-repeat;}
+.order3 .order_box{ width: 965px; border: 1px solid #ddd; margin-top: 35px;}
+.order3 .content{ width: 600px; margin: 35px auto 0;}
+.order3 .succeed{ height: 42px; background: url(../../images/trade/succeed.gif) no-repeat; line-height: 42px; font-size: 14px; color: #333; text-indent: 75px;}
+.order3 table{ margin-top: 40px;}
+.order3 table tr{ height: 30px;}
+.order3 table td{ padding-left: 20px;}
+.order3 table td.titles{ text-indent: 10px; color: #333;}
+.order3 table td.title{ text-align: right; color: #333; text-indent: 0;}
+.order3 .btn_yellow, .order3 .btn_gray,.order3 .btn_grey{ width: 120px; height: 30px; margin: 25px 0;}
+.order3 .btn_grey{cursor:default;}
+.order3 .other{ padding-bottom: 30px;}
+.order3 .other a{ margin: 0 25px;}
+
+/* 收货1 */
+.receiving1 .main{ width: 958px; margin: 10px auto 0;}
+.receiving1 .receiving_step{background: url(../../images/trade/receiv1.png) no-repeat;width:965px;height:30px; }
+.receiving1 .box_1{ width: 965px; margin: 30px 0 20px;}
+.receiving1 .box_1 .box{ width: 100%; border-bottom: 1px solid #ddd;}
+.receiving1 .box_1 .btitle{ font-size: 14px; color: #333; margin: 25px 0 25px 40px;}
+.receiving1 .box_1 .btitle a{ font-size: 12px; margin-left: 20px;}
+.receiving1 .box_1 .btext{ width: 880px; margin: auto;}
+.receiving1 .box_1 .peo_info div{ text-indent: 20px; margin-bottom: 25px;}
+.receiving1 .box_1 .peo_info div span{ text-indent: 0; float: left; margin: 5px;}
+.receiving1 .box_1 .often{ width: 100%; border-bottom: 1px solid #ddd; overflow: hidden; position: relative;}
+.receiving1 .box_1 .more_add{ width: 99px; height: 18px; background: url(../../images/trade/more_address.png) no-repeat; float: left; margin: -1px 390px 0; cursor: pointer; position: relative; z-index: 999;}
+.receiving1 .box_1 .often .add_info{ width: 100%; height: 35px; line-height: 35px;}
+.receiving1 .box_1 .often .add_info input{ float: left; margin: 11px 12px 0; cursor: pointer;}
+.receiving1 .box_1 .often .add_info span{ float: left; margin-right: 10px;}
+.receiving1 .box_1 .often .add_info .operation{ margin-left: 10px; display: none;}
+.receiving1 .box_1 .often .add_info .operation a{ margin-left: 5px;}
+.receiving1 .box_1 .often .add_info.hover{ background-color: #EBEFFA; display: block;}
+.receiving1 .box_1 .often .add_info.hover .operation{ display: block;}
+.receiving1 .box_1 .new_add{ width: 100%; height: 35px; line-height: 35px; background-color: #F5F7FC; margin-bottom: 7px;}
+.receiving1 .box_1 .text_address{ margin-right: 3px;}
+.receiving1 .box_1 .new_add input{ float: left; margin: 11px 12px 0; cursor: pointer;}
+.receiving1 .box_1 .new_add_info{ width: 100%; height: 160px; padding-top: 40px; background-color: #EBEFFA; margin-bottom: 8px;}
+.receiving1 .box_1 .info_box{ margin: 0 0 25px 30px;}
+.receiving1 .box_1 .info_box .box_text{ white-space: nowrap;}
+.receiving1 .box_1 .info_box .box_text i{ margin-left: 20px;}
+.receiving1 .box_1 form .btn_yellow{ width: 120px; height: 25px; margin-bottom: 8px;}
+.receiving1 .box510{ margin-left: -10px;}
+.receiving1 .box960{ width: 960px; height: 24px; margin-bottom: 25px;}
+.receiving1 .box960 input.text, .box960 .spinner, .box960 .star{ float: left;}
+.receiving1 .box960 .box_title{ width: 110px; height: 24px; line-height: 24px; text-align: right; float: left;}
+.receiving1 .box960 .box_text{ height: 24px; line-height: 24px; float: left; position: relative;}
+.receiving1 .box960.notes{ height: 50px;}
+.receiving1 .box960.notes div{ height: 50px; line-height: 50px;}
+.receiving1 .box960.notes textarea{ width: 310px; height: 38px;}
+.receiving1 .box960 .box_text a{ margin-left: 15px;}
+.receiving1 .insurance .box960 .box_text a{ float: right; margin-right: 25px;}
+.receiving1 .insurance input.checkbox{ float: left; margin: 6px 5px 0 0px;}
+.receiving1 .insurance input.text{ margin-right: 20px;}
+.receiving1 .box_1 .btns{ background:#f7f7f7;}
+.receiving1 .box_1 .btns input{ width: 80px; height: 30px; margin-right: 40px;}
+.receiving1 .serve_info .btext{ width: auto; margin-left: 10px;}
+.receiving1 .serve_info input.text{ text-align: left;}
+.receiving1 .serve_info .block{ height: 26px; line-height: 26px; padding-bottom: 40px; float: left; margin-left: 45px;}
+.receiving1 .serve_info .block span{ float: left;}
+.receiving1 .serve_info .block .radio{ margin-right: 10px;}
+.receiving1 .serve_info .block .radio input{ float: left; margin: 6px 2px 0 0;}
+.receiving1 .pay_style .btext{ width: auto;}
+.receiving1 .pay_style .block{ height: 26px; line-height: 26px; padding-bottom: 40px; float: left; margin-left: 90px;}
+.receiving1 .pay_style .block input{ float: left; margin: 6px 10px 0 0;}
+.receiving1 .pay_style a{ float: right; line-height: 26px; margin-right: 10px;}
+.receiving1 .box710{ width: 710px; height: 24px; margin-bottom: 25px;}
+.receiving1 .box710 input.text, .box710 .text_address, .box710 .text_date, .box710 .text_website, .box710 .spinner, .box710 .star{ float: left;}
+.receiving1 .box710 .box_title{ width: 110px; height: 24px; line-height: 24px; text-align: right; float: left;}
+.receiving1 .box710 .box_text{ width: 600px; height: 24px; line-height: 24px; float: left; position: relative;}
+.receiving1 .box710 .unit{ float: left; margin-left: 3px;}
+.receiving1 .box_text a, .order2_3 .box .title a{ float: right; margin-right: 20px; font-size: 12px;}
+.receiving1 .box_1 .often .add_info{ width: 100%; height: 50px; line-height: 25px; margin-bottom: 5px; padding: 5px 0;}
+.receiving1 .box_1 .often .add_info input{ float: left; margin: 19px 30px 0 12px; cursor: pointer;}
+.receiving1 .box_1 .often .add_info span{ float: left; margin-right: 10px;}
+.receiving1 .box_1 .often .add_info .info{ height: 50px; float: left; position:relative;}
+.receiving1 .box_1 .often .add_info .operation{ height: 50px; line-height: 50px;position:absolute; right:10px; display: none;}
+.receiving1 .box_1 .often .add_info .operation a{ margin-left: 5px;}
+.receiving1 .box_1 .often .add_info.hover{ background-color: #EBEFFA; display: block;}
+.receiving1 .box_1 .often .add_info.hover .operation{ display: block;}
+
+/* 收货2 */
+.receiving2 .main{ width:958px; margin: 10px auto 0;}
+.receiving2 .receiving_step{background: url(../../images/trade/receiv2.png) no-repeat;width:958px;height:30px; }
+.receiving2 .receiving_box{ width: 965px; border: 1px solid #ddd; margin: 35px 0 20px;}
+.receiving2 .content{ width: 600px; margin: 35px auto 0;}
+.receiving2 .succeed{ height: 42px; background: url(../../images/trade/succeed.gif) no-repeat; line-height: 42px; font-size: 14px; color: #333; text-indent: 75px;}
+.receiving2 table{ margin-top: 40px;}
+.receiving2 table tr{ height: 30px;}
+.receiving2 table td{ text-indent: 20px;}
+.receiving2 table td.titles{ text-indent: 10px; color: #333;}
+.receiving2 table td.title{ text-align: right; color: #333;}
+.receiving2 .btn_yellow, .receiving2 .btn_grey{ width: 120px; height: 30px; margin: 25px 0;}
+.receiving2 .btn_grey{cursor:default;}
+.receiving2 .other{ padding-bottom: 30px;}
+.receiving2 .other a{ margin: 0 25px;}
+
+/* 收货3 */
+.receiving3 .main{ width: 960px; margin: 10px auto 0;}
+.receiving3 .step1 span{ background-position: 0 -25px;}
+.receiving3 .step1{ color: #FFC17F;}
+.receiving3 .step2 span{ background-position: 0 -100px;}
+.receiving3 .step2{ color: #FFC17F}
+.receiving3 .step3 span{ background-position: 0 -150px;}
+.receiving3 .step3{ color: #FF8300}
+.receiving3 .step4 span{ background-position: 0 -175px;}
+.receiving3 .insurance{ width: 958px; border: 1px solid #ddd; margin-top: 35px; padding-bottom: 20px;}
+.receiving3 .insurance div{ height: 26px; line-height: 26px; margin-left: 50px;}
+.receiving3 .insurance .hint1{ margin: 20px 50px 15px;}
+.receiving3 .insurance .info{ margin-bottom: 7px;}
+.receiving3 .insurance input{ margin: 0 15px 0 25px;}
+.receiving3 .color_orange{ font-size: 16px;}
+.receiving3 .color_orange span{ font-size: 12px;}
+.receiving3 .insurance div a{ margin: 0 35px;}
+.receiving3 .insurance .hint2{ margin: 15px 50px 20px;}
+.receiving3 .insurance i{ margin-left: 50px;}
+.receiving3 .box_1{ width: 958px; margin: 20px 0;}
+.receiving3 .box_2{ width: 858px; margin: 30px auto 0;}
+.receiving3 .box_2 .box2_title{ font-size: 12px; border-bottom-width: 2px;}
+.receiving3 .myb div{ height: 32px; line-height: 32px; float: left; margin: 25px 0 5px;}
+.receiving3 .myb .div1{ width: 270px;}
+.receiving3 .myb .div1 input{float: left; margin: 10px 10px; cursor: pointer;}
+.receiving3 .myb .div1 img{ width: 126px; height: 30px; border: 1px solid #ccc;}
+.receiving3 .myb .div2{ width: 240px;}
+.receiving3 .banks{ width: 930px; margin: 10px 0 35px;}
+.receiving3 .banks li{ width: 232px; height: 32px; float: left; margin: 15px 0;}
+.receiving3 .banks input{ float: left; margin: 10px 10px; cursor: pointer;}
+.receiving3 .banks img{ width: 126px; height: 30px; border: 1px solid #ccc;}
+.receiving3 .payment{ height: 50px; border-top: 1px solid #ccc; background-color: #F7F7F7;}
+.receiving3 .payment span{ line-height: 50px; float: right;}
+.receiving3 .payment .btn_yellow{ float: right; width: 120px; height: 30px; font-size: 16px; margin: 10px 40px 0 20px;}
+
+/* 回程车列表 */
+.return_car_list .main{ width: 1190px; margin: 10px auto 0;}
+.return_car_list .nav{ margin-bottom: 15px;font-size: 14px;}
+.return_car_list .nav a{ color: #333; font-size: 14px;}
+.return_car_list .left{ width: 210px; float: left;}
+.return_car_list .left .box_1{ width: 208px; border-top: 2px solid #0092FC;}
+.return_car_list .city_list{ border-bottom: none; margin-bottom: 12px;}
+.return_car_list .city_list dl{ width: 100%;}
+.return_car_list .city_list dt{ height: 30px; background-color: #F7F7F7; border-bottom: 1px solid #ddd; line-height: 30px; text-indent: 10px; cursor: pointer;}
+.return_car_list .city_list dt span{ width: 16px; height: 16px; background: url(../../images/trade/show_hide2.gif) 0 -16px no-repeat; float: left; margin: 7px 0 0 18px;}
+.return_car_list .city_list dt span.show{ background-position: 0 0;}
+.return_car_list .city_list dt.hot{ color: #0067B9;}
+.return_car_list .city_list dd{ border-bottom: 1px solid #ddd;}
+.return_car_list .city_list ul{ width: 165px; margin-left: 20px; padding-bottom: 20px;}
+.return_car_list .city_list li{ width: 50px; height: 20px; line-height: 20px; text-align: center; color: #333; float: left; margin: 12px 5px 0 0; cursor: pointer;}
+.return_car_list .city_list li:hover{ text-decoration: underline;}
+.return_car_list .city_list li.visited{ background-color: #0079D6; color: #fff;}
+.return_car_list .city_list li.visited:hover{ text-decoration: none;}
+.return_car_list .rec .line{ width: 177px; height: 140px; border:1px solid #fff; margin: 15px auto 0; position: relative; cursor: pointer;}
+.return_car_list .rec .line:hover{ border:1px solid #F08A12; }
+.return_car_list .rec .price{ width: 100%; height: 30px; background: url("../../images/trade/line_price_bg.png") repeat-x; position: absolute; bottom: 34px;}
+.return_car_list .rec .price div{ height: 15px; line-height: 15px; font-size: 10px; color: #fff; text-indent: 5px}
+.return_car_list .rec .line .city{ height: 25px; margin-top: 5px;}
+.return_car_list .rec .line .city div{ height: 25px; line-height: 25px; float: left;}
+.return_car_list .rec .line .city .starting{ width: 60px; color: #333; text-indent: 5px;}
+.return_car_list .rec .line .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 9px;}
+.return_car_list .rec .line .city .arrival{ width: 106px; font-size: 14px; color: #FF8300; text-indent: 15px;}
+.return_car_list .rec .more{ float: right; margin: 10px 20px 15px;}
+.return_car_list .right{ width: 970px; float: right;}
+.return_car_list .filter{ width: 968px;}
+.return_car_list .select{ width: 920px; margin: auto;}
+.return_car_list .select .address{ padding-bottom: 15px; position: relative;}
+.return_car_list .select .address .adr_box{ height: 32px; margin-top: 20px;}
+.return_car_list .select .address .adr_title{ width: 115px; height:32px; line-height: 32px; text-align: right; float: left;}
+.return_car_list .select .address .adr_text{ float: left;}
+.return_car_list .select .address .text_address{ height: 30px; margin-left: 30px;}
+.return_car_list .select .address .text_address span{ margin-top: -22px !important; margin-right: -15px !important;}
+.return_car_list .select .address .switch{ width: 21px; height: 44px; background: url("../../images/trade/switch.png") 0 -44px no-repeat; position: absolute; top: 20px; left: 360px; cursor: pointer;}
+.return_car_list .select .address .switch.none{ background-position: 0 0; cursor: default;}
+.return_car_list .main .select dl{ width: 100%; height: 20px; padding: 22px 0; border-top: 1px dashed #eee;}
+.return_car_list .main .select dt{ width: 115px; height: 20px; line-height: 20px; text-align: right; float: left; margin-right: 25px;}
+.return_car_list .main .select dd{ width: 80px; height: 20px; line-height: 20px; text-align: center; color: #0067B9; float: left; margin-right: 65px; cursor: pointer;}
+.return_car_list .main .select dd.visited{ background-color: #0079D6; color: #fff;}
+.return_car_list .line_list{ width: 968px; margin-top: 17px;}
+.return_car_list .line_list .box1_title{ font-size: 12px; text-indent: 20px;}
+.return_car_list .line_list .box1_title.two{ background-color: #fff !important;}
+.return_car_list .line_list .sort{ height: 22px; float: left; margin-top: 4px;}
+.return_car_list .line_list .sort dt{ height: 22px; line-height: 22px; text-align: center; float: left;}
+.return_car_list .line_list .sort dd{ height: 20px; padding: 0 10px; border: 1px solid #ddd; background-color: #fff; line-height: 20px; text-align: center; text-indent: 0; float: left; margin-left: 15px; cursor: pointer;}
+.return_car_list .line_list .sort dd span{ margin-left: 5px; display: none;}
+.return_car_list .line_list .stat{ width: 250px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height: 20px; text-align: center; text-indent: 0; float: right; margin: 4px 12px 0 0;}
+.return_car_list .line_list .list_style{ height: 13px; float: left; margin: 8px 0 0 25px;}
+.return_car_list .line_list .list_style .list{ width: 14px; height: 13px; background: url("../../images/trade/list_style.gif") 0 0 no-repeat; float: left; margin-right: 10px; cursor: pointer;}
+.return_car_list .line_list .list_style .list.visited{ background-position: 0 -13px;}
+.return_car_list .line_list .list_style .large{ width: 17px; height: 13px; background: url("../../images/trade/list_style.gif") -14px -13px no-repeat; float: left; cursor: pointer;}
+.return_car_list .line_list .list_style .large.visited{ background-position: -14px 0;}
+.return_car_list .line_list .search_paging{ text-indent: 0; float: right; margin: 4px 12px 0 0;}
+.return_car_list .line_list .search_paging .in_all{ height: 20px; line-height:20px; float: left;}
+.return_car_list .line_list .search_paging .page_up{ width: 74px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height:20px; color: #0068BA; text-align: left; float: left; margin-left: 10px; cursor: pointer;}
+.return_car_list .line_list .search_paging .up_arrows{ width: 8px; height: 10px; background: url(../../images/trade/search_paging.png) 0 -10px no-repeat; float: left; margin: 5px 10px 0 8px;}
+.return_car_list .line_list .search_paging .page_up.not{ color: #666; cursor: default;}
+.return_car_list .line_list .search_paging .page_up.not .up_arrows{ background: url(../../images/trade/search_paging.png) 0 0 no-repeat;}
+.return_car_list .line_list .search_paging .page_down{ width: 74px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height:20px; color: #0068BA; text-align: right; float: left; margin-left: 10px; cursor: pointer;}
+.return_car_list .line_list .search_paging .down_arrows{ width: 8px; height: 10px; background: url(../../images/trade/search_paging.png) -8px -10px no-repeat; float: right; margin: 5px 8px 0 10px}
+.return_car_list .line_list .search_paging .page_down.not{ color: #666; cursor: default;}
+.return_car_list .line_list .search_paging .page_down.not .down_arrows{ background: url(../../images/trade/search_paging.png) -8px 0 no-repeat;}
+.return_car_list .line_list .lines_list{ width: 935px; margin: auto;}
+.return_car_list .line_list .lines_list .line{ width: 100%; height: 150px; border-bottom: 1px dashed #f2f2f2; padding-bottom: 12px; margin-top: 16px;}
+.return_car_list .line_list .lines_list .div1{ width: 200px; height: 148px; border: 1px solid #eee; border-radius: 5px; -moz-border-radius: 5px; float: left; margin-left: 15px;}
+.return_car_list .line_list .lines_list .div1:hover{border-color:#F89015;}
+.return_car_list .line_list .lines_list .div1 img{ width: 177px; height: 106px; float: left; margin: 9px 0 0 11px;}
+.return_car_list .line_list .lines_list .div1 img.autoload{margin: 0px 0 0 0px;}
+.return_car_list .line_list .lines_list .div1 .title{ width: 100%; text-align: center; float: left; margin-top: 10px;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.return_car_list .line_list .lines_list .div2{ width: 140px; height: 150px; float: left; margin-left: 20px;}
+.return_car_list .line_list .lines_list .div2 .color_orange{ font-size: 14px;}
+.return_car_list .line_list .lines_list .div2 div{ height: 30px; line-height: 30px;}
+.return_car_list .line_list .lines_list .div2 .grade{ margin: 20px 0 15px;}
+.return_car_list .line_list .lines_list .div3{ width: 90px; height: 150px; text-align: right; float: left;}
+.return_car_list .line_list .lines_list .div3 .color_orange{ margin: 50px 0 20px;}
+.return_car_list .line_list .lines_list .div4{ width: 165px; height: 130px; float: left; margin-left: 40px; padding-top: 20px; position: relative;}
+.return_car_list .line_list .lines_list .div4 div{ height: 30px; line-height: 30px;}
+.return_car_list .line_list .lines_list .div4 .color_orange{ font-size: 16px;}
+.return_car_list .line_list .lines_list .div4 .price{ width: 270px; height: auto; padding: 5px 0 7px; background-color: #FFFFD0; border: 1px solid #FFAD7A; text-indent: 20px; position: absolute; top: 120px; left: -40px; z-index: 9999; display: none;}
+.return_car_list .line_list .lines_list .div4 .price .arrows{ width: 20px; height: 13px; background: url(../../images/trade/price_arrows.png) no-repeat; float: left; margin: -16px 0 0 95px;}
+.return_car_list .line_list .lines_list .div4 .price .color_orange{ font-size: 12px;}
+.return_car_list .line_list .lines_list .div5{ width: 130px; padding-top: 17px; float: left;}
+.return_car_list .line_list .lines_list .div5 div{ height: 30px; line-height: 30px; text-align: center;}
+.return_car_list .line_list .lines_list .div5 a{ color: #666; text-decoration: underline;}
+.return_car_list .line_list .lines_list .div5 div.ope{ width: 120px; padding-left: 8px; height: auto;}
+.return_car_list .line_list .lines_list .div5 .ope span{ width: 18px; height: 16px; background: url(../../images/trade/line_list_ope.png) no-repeat; float: left; margin: 10px 0 5px 15px;}
+.return_car_list .line_list .lines_list .div5 .ope span.ope1{ background-position: 0 0;}
+.return_car_list .line_list .lines_list .div5 .ope span.ope2{ background-position: 0 -16px;}
+.return_car_list .line_list .lines_list .div5 .ope span.ope3{ background-position: 0 -32px;}
+.return_car_list .line_list .lines_list .div5 .ope span.ope4{ background-position: 0 -48px;}
+.return_car_list .line_list .lines_list .div5 .ope span.ope5{ background-position: 0 -64px;}
+.return_car_list .line_list .lines_list .div5 .ope span.ope6{ background-position: 0 -80px;}
+.return_car_list .line_list .lines_list .div6{ width: 130px; height: 125px; text-align: center; float: left; padding-top: 25px;}
+.return_car_list .line_list .lines_list .div6 .collect{ width: 100px; height: 22px; background: url(../../images/trade/collect.png) 5px 0 no-repeat; line-height: 22px; text-align: left; text-indent: 35px; margin: 0 auto 15px; cursor: pointer;}
+.return_car_list .line_list .lines_list .div6 .collectd{ width: 100px; height: 22px; background: url(../../images/trade/collect.png) 7px -22px no-repeat; line-height: 22px; text-align: left; text-indent: 35px; margin: 0 auto 15px; cursor: pointer;}
+.return_car_list .line_list .lines_list .div6 .collect:hover{ background: url(../../images/trade/collect.png) 7px -22px no-repeat;}
+.return_car_list .line_list .lines_list .div6 input{ width: 74px; height: 24px; margin-bottom: 18px; font-size: 12px;}
+.return_car_list .line_list .lines_list .btns{ border-top: 1px solid #ddd;}
+.return_car_list .lines_large ul{ width: 944px; margin-left: 30px}
+.return_car_list .lines_large .car{ width: 199px; height: 280px; border: 1px solid #ddd; float: left; margin: 25px 32px 0 0; position: relative; cursor: pointer;}
+.return_car_list .lines_large .car:hover{ border-color: #F08A12;}
+.return_car_list .lines_large .car img{ margin: 11px 0 0 11px;}
+.return_car_list .lines_large .car .city{ height: 30px;}
+.return_car_list .lines_large .car .city div{ height: 30px; line-height: 30px; float: left;}
+.return_car_list .lines_large .car .city .starting{ width: 78px; color: #0079D6; text-indent: 10px;}
+.return_car_list .lines_large .car .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 11px;}
+.return_car_list .lines_large .car .city .arrival{ width: 112px; color: #0079D6; text-indent: 15px;}
+.return_car_list .lines_large .car .price{ text-indent: 10px; padding-top: 10px;}
+.return_car_list .lines_large .car .price div{ margin-bottom: 10px;}
+.return_car_list .lines_large .car .count_down{ width: 100%; height: 35px; border-top: 1px solid #ddd; background: url("../../images/trade/count_down.png") 14px center no-repeat; line-height: 35px; text-indent:36px; position: absolute; bottom: 0;}
+.return_car_list .paging{margin:0;}
+.return_car_list .go{margin-right:15px !important;}
+
+/* 回程车详情 */
+.return_car_info .main{ width: 1190px; margin: 10px auto 0;}
+.return_car_info .nav{ margin-bottom: 15px;}
+.return_car_info .nav a{ color: #333; font-size: 14px;}
+.return_car_info .info{ width: 1186px; border: 2px solid #ddd;}
+.return_car_info .info .info_left{ width: 301px; float: left; margin: 18px;}
+.return_car_info .info .info_left img{ width: 301px; height: 258px; margin-bottom: 20px;}
+.return_car_info .info .info_left ul{ width: 300px; height: 70px; border-top: 1px solid #ddd; border-left: 1px solid #ddd;}
+.return_car_info .info .info_left li{ width: 99px; height: 69px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: center; float: left;line-height:14px;}
+.return_car_info .info .info_left li img{ width: 40px; height: 40px; margin: 7px 0 3px 0;}
+.return_car_info .info .info_left li a{ color: #666;}
+.return_car_info .info .info_right{ width: 820px; float: left; margin-left: 12px;}
+.return_car_info .info .info_right .detailed_left{ width: 600px; float: left; margin-top: 20px;}
+.return_car_info .info .info_right .detailed_left .price{ padding: 8px 0}
+.return_car_info .info .info_right .detailed_left .box{ width: 300px; height: 25px; line-height: 25px; text-indent: 5px;  float: left; margin: 8px 0;}
+.return_car_info .info .info_right .detailed_left .color_orange{ font-size: 16px;}
+.return_car_info .info .info_right .detailed_left .color_orange span{ font-size: 12px;}
+.return_car_info .info .info_right .detailed_left .box.date{ background: url("../../images/trade/count_down.png") 5px 5px no-repeat; text-indent: 30px;}
+.return_car_info .info .info_right .detailed_left .box.date .color_orange{ font-size: 12px;}
+.return_car_info .info .info_right .address{ height: 25px;}
+.return_car_info .info .info_right .starting{ height: 25px; line-height: 25px; font-size: 16px; color: #333; float: left; padding-right: 10px;}
+.return_car_info .info .info_right .address .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; float: left; margin-top: 9px;}
+.return_car_info .info .info_right .destination{ height: 25px; line-height: 25px; text-indent: 15px; font-size: 16px; color: #333; float: left;}
+.return_car_info .info .info_right .color_red{ margin-top: 20px; padding-bottom: 15px; border-bottom:  1px dashed #ddd;}
+.return_car_info .info .info_right .box_1{ width: 200px; float: right; margin-top: 15px;}
+.return_car_info .info .info_right .box1_title{ height: 40px; line-height: 40px;}
+.return_car_info .info .info_right .box_1 .syn{ height: 40px; border-bottom: 1px solid #ddd;}
+.return_car_info .info .info_right .box_1 .synthesize.big{ font-size: 13px; float: left; margin: 7px 0 0 5px;}
+.return_car_info .info .info_right .box_1 .title{ margin: 20px 0 10px 10px;}
+.return_car_info .info .info_right .box_1 .synthesize.small{ margin: 0 0 5px 10px;}
+.return_car_info .info .info_right .box_1 .synthesize.small .s_star{ margin-left: 10px;}
+.return_car_info .info .info_right .box_1 .synthesize.small .s_grade{ color: #333;}
+.return_car_info .info .info_right .btn{ padding-top: 25px; padding-bottom:20px;border-top: 1px dashed #ddd;}
+.return_car_info .info .info_right .btn_yellow{ width: 150px; height: 38px; font-size: 18px; float: left;}
+.return_car_info .info .info_right .btn_gray_h38{ width: 120px; line-height: 38px; color: #666; font-size: 14px; float: left; margin: 0 20px;}
+.return_car_info .info .info_right .btn_gray_h38 span{ float: left; width: 12px; height: 12px; background: url(../../images/trade/add.gif) no-repeat; margin: 14px 20px 0;}
+.return_car_info #bdshare{ float: right; margin-top: 5px;}
+.return_car_info .tab_click{ width: 1188; margin-top: 30px;}
+.return_car_info .tab_click .titles{ height: 40px; border-left: 1px solid #ddd;}
+.return_car_info .tab_click .title{ width: 100px; height: 39px; line-height: 40px; border-left: none; background-color: #f7f7f7; font-size: 14px;}
+.return_car_info .tab_click .title.visited{ border-top: 3px solid #0092FC; background-color: #fff; height: 38px; line-height: 36px;}
+.return_car_info .tab_click .tab_son{ border: 1px solid #ddd; border-top: none;}
+.return_car_info .tab_click .tab_son .box{ padding-top: 51px; margin-left: 30px;}
+.return_car_info .tab_click .tab_son img{ float: left;}
+.return_car_info .tab_click .tab_son .box_box{ width: 1000px; float: left; margin-left: 45px;}
+.return_car_info .tab_click .tab_son.introduce dl{ margin-bottom: 40px;}
+.return_car_info .tab_click .tab_son.introduce dt{ width: 85px; float: left;}
+.return_car_info .tab_click .tab_son.introduce dd{ width: 140px; float: left;}
+.return_car_info .tab_click .tab_son.introduce dd input{ float: left; margin: 2px 10px 0 0;}
+.return_car_info .tab_click .tab_son h2{ font-size: 14px; margin-bottom: 20px;}
+.return_car_info .tab_click .tab_son p{ margin: 0 0 20px 5px; line-height: 1.5;}
+.return_car_info .tab_click .tab_son .box_title{ border-bottom: 1px dashed #ddd; padding-bottom: 15px; font-size: 14px;height:35px;}
+.return_car_info .tab_click .tab_son .box_title .color_orange{ font-size: 24px; font-weight: bold;}
+.return_car_info .tab_click .tab_son .comment{ width: 100%; padding: 25px 0; border-bottom: 1px dashed #ddd;}
+.return_car_info .tab_click .tab_son .comment .div1{ width: 840px; float: left;}
+.return_car_info .tab_click .tab_son .comment .content{ margin-bottom: 15px;}
+.return_car_info .tab_click .tab_son .comment .color_orange{ height: 20px; line-height: 20px; float: left;}
+.return_car_info .tab_click .tab_son .comment .synthesize{ float: left; margin-left: 30px;}
+.return_car_info .tab_click .tab_son .comment .div2{ width: 160px; text-indent: 5px; float: left;}
+.return_car_info .tab_click .tab_son .comment .div2 .user_name{ margin-bottom: 15px;}
+.return_car_info .tab_click .tab_son.ask .consult_title{ width: 100%; padding-bottom: 15px; border-bottom: 1px dashed #ddd;}
+.return_car_info .tab_click .tab_son.ask dl{ height: 25px; border-right: 1px solid #eee; float: left;}
+.return_car_info .tab_click .tab_son.ask dt{ height: 25px; line-height: 25px; font-size: 14px; color: #333; float: left;}
+.return_car_info .tab_click .tab_son.ask dd{ width: 47px; height: 25px; background-color: #F7F7F7; line-height: 25px; text-align: center; float: left; margin-right: 20px; cursor: pointer;}
+.return_car_info .tab_click .tab_son.ask dd.visited{ background-color: #97DDFF; color: #fff;}
+.return_car_info .tab_click .tab_son.ask .btn_yellow{ width: 80px; height: 25px; font-size: 12px; float: left; margin-left: 20px;}
+.return_car_info .tab_click .tab_son .consult_content{ width: 100%; padding: 15px 0; border-bottom: 1px dashed #ddd;}
+.return_car_info .tab_click .tab_son .consult_text{ padding-left: 40px; margin-bottom: 20px; background: url("../../images/trade/ask.gif") 10px 2px no-repeat;}
+.return_car_info .tab_click .tab_son .consult_reply{ padding-left: 40px; background: url("../../images/trade/reply.gif") 10px 2px no-repeat;}
+.return_car_info .nodata{text-align:center; line-height:40px;}
+.publish_consult{ width: 800px; padding-top: 30px; display: none;}
+.publish_consult .info_box{ margin: 0 0 30px 40px;}
+.publish_consult .info_box.textarea, .publish_consult .info_box.textarea .box_title, .publish_consult .info_box.textarea .box_text{ height: auto;}
+.publish_consult .info_box.textarea textarea{ width: 600px; height: 120px;}
+.publish_consult .btns{ padding-top: 0;}
+
+/* 线路列表 */
+.lineList .main{ width: 1190px; margin: 10px auto 0;}
+.lineList .nav{ margin-bottom: 15px;font-size:14px;}
+.lineList .nav a{ color: #333; font-size: 14px;}
+.lineList .left{ width: 210px; float: left;}
+.lineList .left .box_1{ width: 208px; border-top: 2px solid #0092FC;}
+.lineList .city_list{ border-bottom: none; margin-bottom: 12px;}
+.lineList .city_list dl{ width: 100%;}
+.lineList .city_list dt{ height: 30px; background-color: #F7F7F7; border-bottom: 1px solid #ddd; line-height: 30px; text-indent: 10px; cursor: pointer;}
+.lineList .city_list dt span{ width: 16px; height: 16px; background: url(../../images/trade/show_hide2.gif) 0 -16px no-repeat; float: left; margin: 7px 0 0 18px;}
+.lineList .city_list dt span.show{ background-position: 0 0;}
+.lineList .city_list dt.hot{ color: #0067B9;}
+.lineList .city_list dd{ border-bottom: 1px solid #ddd;}
+.lineList .city_list ul{ width: 165px; margin-left: 20px; padding-bottom: 20px;}
+.lineList .city_list li{ width: 50px; height: 20px; line-height: 20px; text-align: center; color: #333; float: left; margin: 12px 5px 0 0; cursor: pointer;}
+.lineList .city_list li:hover{ text-decoration: underline;}
+.lineList .city_list li.visited{ background-color: #0079D6; color: #fff;}
+.lineList .city_list li.visited:hover{ text-decoration: none;}
+.lineList .rec .line{ width: 177px; height: 140px; border:1px solid #fff; margin: 15px auto 0; position: relative; cursor: pointer;}
+.lineList .rec .line:hover{ border:1px solid #F08A12; }
+.lineList .rec .price{ width: 100%; height: 30px; background: url("../../images/trade/line_price_bg.png") repeat-x; position: absolute; bottom: 34px;}
+.lineList .rec .price div{ height: 15px; line-height: 15px; font-size: 10px; color: #fff; text-indent: 5px}
+.lineList .rec .line .city{ height: 25px; margin-top: 5px;}
+.lineList .rec .line .city div{ height: 25px; line-height: 25px; float: left;}
+.lineList .rec .line .city .starting{ width: 60px; color: #333; text-indent: 5px;}
+.lineList .rec .line .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 9px;}
+.lineList .rec .line .city .arrival{ width: 106px; font-size: 14px; color: #FF8300; text-indent: 15px;}
+.lineList .rec .more{ float: right; margin: 10px 20px 15px;}
+.lineList .right{ width: 970px; float: right;}
+.lineList .filter{ width: 968px;}
+.lineList .select{ width: 920px; margin: auto;}
+.lineList .select .address{ padding-bottom: 15px; position: relative;}
+.lineList .select .address .adr_box{ height: 32px; margin-top: 20px;}
+.lineList .select .address .adr_title{ width: 115px; height:32px; line-height: 32px; text-align: right; float: left;}
+.lineList .select .address .adr_text{ float: left;}
+.lineList .select .address .text_address{ height: 30px; margin-left: 30px;}
+.lineList .select .address .text_address span{ margin-top: -22px !important; margin-right: -15px !important;}
+.lineList .select .address .switch{ width: 21px; height: 44px; background: url("../../images/trade/switch.png") 0 -44px no-repeat; position: absolute; top: 20px; left: 360px; cursor: pointer;}
+.lineList .select .address .switch.none{ background-position: 0 0; cursor: default;}
+.lineList .main .select dl{ width: 100%; height: 20px; padding: 22px 0; border-top: 1px dashed #eee;}
+.lineList .main .select dt{ width: 115px; height: 20px; line-height: 20px; text-align: right; float: left; margin-right: 25px;}
+.lineList .main .select dd{ width: 80px; height: 20px; line-height: 20px; text-align: center; color: #0067B9; float: left; margin-right: 65px; cursor: pointer;}
+.lineList .main .select dd.visited{ background-color: #0079D6; color: #fff;}
+.lineList .line_list{ width: 968px; margin-top: 17px;}
+.lineList .line_list .box1_title{ font-size: 12px; text-indent: 20px;}
+.lineList .line_list .box1_title.two{ background-color: #fff !important;}
+.lineList .line_list .sort{ height: 22px; float: left; margin-top: 4px;}
+.lineList .line_list .sort dt{ height: 22px; line-height: 22px; text-align: center; float: left;}
+.lineList .line_list .sort dd{ height: 20px; padding: 0 10px; border: 1px solid #ddd; background-color: #fff; line-height: 20px; text-align: center; text-indent: 0; float: left; margin-left: 15px; cursor: pointer;}
+.lineList .line_list .sort dd span{ margin-left: 5px; display: none;}
+.lineList .line_list .stat{ width: 250px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height: 20px; text-align: center; text-indent: 0; float: right; margin: 4px 12px 0 0;}
+.lineList .line_list .list_style{ height: 13px; float: left; margin: 8px 0 0 25px;}
+.lineList .line_list .list_style .large{ width: 14px; height: 13px; background: url("../../images/trade/list_style.gif") 0 0 no-repeat; float: left; cursor: pointer;}
+.lineList .line_list .list_style .large.visited{ background-position: 0 -13px;}
+.lineList .line_list .list_style .list{ width: 17px; height: 13px; background: url("../../images/trade/list_style.gif") -14px -13px no-repeat; float: left; margin-right: 10px; cursor: pointer;}
+.lineList .line_list .list_style .list.visited{ background-position: -14px 0;}
+.lineList .line_list .search_paging{ text-indent: 0; float: right; margin: 4px 12px 0 0;}
+.lineList .line_list .search_paging .in_all{ height: 20px; line-height:20px; float: left;}
+.lineList .line_list .search_paging .page_up{ width: 74px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height:20px; color: #0068BA; text-align: left; float: left; margin-left: 10px; cursor: pointer;}
+.lineList .line_list .search_paging .up_arrows{ width: 8px; height: 10px; background: url(../../images/trade/search_paging.png) 0 -10px no-repeat; float: left; margin: 5px 10px 0 8px;}
+.lineList .line_list .search_paging .page_up.not{ color: #666; cursor: default;}
+.lineList .line_list .search_paging .page_up.not .up_arrows{ background: url(../../images/trade/search_paging.png) 0 0 no-repeat;}
+.lineList .line_list .search_paging .page_down{ width: 74px; height: 20px; border: 1px solid #ddd; background-color: #fff; line-height:20px; color: #0068BA; text-align: right; float: left; margin-left: 10px; cursor: pointer;}
+.lineList .line_list .search_paging .down_arrows{ width: 8px; height: 10px; background: url(../../images/trade/search_paging.png) -8px -10px no-repeat; float: right; margin: 5px 8px 0 10px}
+.lineList .line_list .search_paging .page_down.not{ color: #666; cursor: default;}
+.lineList .line_list .search_paging .page_down.not .down_arrows{ background: url(../../images/trade/search_paging.png) -8px 0 no-repeat;}
+.lineList .line_list .lines_list{ width: 935px; margin: auto;}
+.lineList .line_list .lines_list .line{ width: 100%; height: 150px; border-bottom: 1px dashed #f2f2f2; padding-bottom: 12px; margin-top: 16px;}
+.lineList .line_list .lines_list .div1{ width: 200px; height: 148px; border: 1px solid #eee; border-radius: 5px; -moz-border-radius: 5px; float: left; margin-left: 15px;}
+.lineList .line_list .lines_list .div1 img{ width: 177px; height: 106px; float: left; margin: 9px 0 0 11px;}
+.lineList .line_list .lines_list .div1 .title{ width: 100%; text-align: center; float: left; margin-top: 10px;}
+.lineList .line_list .lines_list .div2{ width: 140px; height: 150px; float: left; margin-left: 20px;}
+.lineList .line_list .lines_list .div2 .color_orange{ font-size: 14px;}
+.lineList .line_list .lines_list .div2 div{ height: 30px; line-height: 30px;}
+.lineList .line_list .lines_list .div2 .grade{ margin: 20px 0 15px;}
+.lineList .line_list .lines_list .div3{ width: 90px; height: 150px; text-align: right; float: left;}
+.lineList .line_list .lines_list .div3 .color_orange{ margin: 50px 0 20px;}
+.lineList .line_list .lines_list .div4{ width: 165px; height: 130px; float: left; margin-left: 40px; padding-top: 20px; position: relative;}
+.lineList .line_list .lines_list .div4 div{ height: 30px; line-height: 30px;}
+.lineList .line_list .lines_list .div4 .color_orange{ font-size: 16px;}
+.lineList .line_list .lines_list .div4 .price{ width: 270px; height: auto; padding: 5px 0 7px; background-color: #FFFFD0; border: 1px solid #FFAD7A; text-indent: 20px; position: absolute; top: 120px; left: -40px; z-index: 9999; display: none;}
+.lineList .line_list .lines_list .div4 .price .arrows{ width: 20px; height: 13px; background: url(../../images/trade/price_arrows.png) no-repeat; float: left; margin: -16px 0 0 95px;}
+.lineList .line_list .lines_list .div4 .price .color_orange{ font-size: 12px;}
+.lineList .line_list .div5{ width: 130px; padding-top: 17px; float: left;}
+.lineList .line_list .div5 div{ height: 30px; line-height: 30px; text-align: center;}
+.lineList .line_list .div5 a{ color: #666; text-decoration: underline;}
+.lineList .line_list .div5 div.ope{ width: 120px; padding-left: 8px; height: auto;}
+.lineList .line_list .div5 .ope span{ width: 18px; height: 16px; background: url(../../images/trade/line_list_ope.png) no-repeat; float: left; margin: 10px 0 5px 15px;}
+.lineList .line_list .div5 .ope span.ope1{ background-position: 0 0;}
+.lineList .line_list .div5 .ope span.ope2{ background-position: 0 -16px;}
+.lineList .line_list .div5 .ope span.ope3{ background-position: 0 -32px;}
+.lineList .line_list .div5 .ope span.ope4{ background-position: 0 -48px;}
+.lineList .line_list .div5 .ope span.ope5{ background-position: 0 -64px;}
+.lineList .line_list .div5 .ope span.ope6{ background-position: 0 -80px;}
+.lineList .line_list .lines_list .div6{ width: 130px; height: 125px; text-align: center; float: left; padding-top: 25px;}
+.lineList .line_list .lines_list .div6 .collect{ width: 100px; height: 22px; background: url(../../images/trade/collect.png) 5px 0 no-repeat; line-height: 22px; text-align: left; text-indent: 35px; margin: 0 auto 15px; cursor: pointer;}
+.lineList .line_list .lines_list .div6 .collectd{ width: 100px; height: 22px; background: url(../../images/trade/collect.png) 7px -22px no-repeat; line-height: 22px; text-align: left; text-indent: 35px; margin: 0 auto 15px; cursor: pointer;}
+.lineList .line_list .lines_list .div6 .collect:hover{ background: url(../../images/trade/collect.png) 7px -22px no-repeat;}
+.lineList .line_list .lines_list .div6 input{ width: 74px; height: 24px; margin-bottom: 18px; font-size: 12px;}
+.lineList .line_list .lines_list .btns{ border-top: 1px solid #ddd;}
+.lineList .lines_large ul{ width: 944px; margin-left: 30px; padding-bottom: 13px;}
+.lineList .lines_large .car{ width: 215px; border: 1px solid #ddd; float: left; margin: 13px 13px 0 0; position: relative; cursor: pointer;}
+.lineList .lines_large .car:hover{ border-color: #F08A12;}
+.lineList .lines_large .car img{ width: 177px; height: 106px; margin: 11px 0 0 20px;}
+.lineList .lines_large .car .city{ height: 30px; margin: 5px 0 0 20px;}
+.lineList .lines_large .car .city div{ height: 30px; line-height: 30px; float: left;}
+.lineList .lines_large .car .city .starting{ width: 60px; color: #333;}
+.lineList .lines_large .car .city .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; margin-top: 11px;}
+.lineList .lines_large .car .city .arrival{ width: 112px; color: #FF8300; text-indent: 15px;}
+.lineList .lines_large .car .price{ font-size: 10px; text-indent: 20px;}
+.lineList .lines_large .car .price div{ margin-bottom: 2px;}
+.lineList .lines_large .car .btns{ padding: 0; margin: 15px 0 8px;}
+.lineList .lines_large .car .btns .btn_yellow{ margin-right: 10px;}
+.lineList .paging{ float: right;}
+
+/* 线路详情 */
+.line_info .main{ width: 1190px; margin: 10px auto 0;}
+.line_info .nav{ margin-bottom: 15px;}
+.line_info .nav a{ color: #333; font-size: 14px;}
+.line_info .info{ width: 1186px; border: 2px solid #ddd;}
+.line_info .info .info_left{ width: 301px; float: left; margin: 18px;}
+.line_info .info .info_left img{ width: 301px; height: 258px; margin-bottom: 20px;}
+.line_info .info .info_left ul{ width: 300px; height: 70px; border-top: 1px solid #ddd; border-left: 1px solid #ddd;}
+.line_info .info .info_left li{ width: 99px; height: 69px; border-bottom: 1px solid #ddd; border-right: 1px solid #ddd; text-align: center; float: left;}
+.line_info .info .info_left li img{ width: 40px; height: 40px; margin: 6px 0 0px 0;}
+.line_info .info .info_left li a{ color: #666;}
+.line_info .info .info_right{ width: 820px; float: left; margin-left: 12px;}
+.line_info .info .info_right .detailed{ padding-bottom: 10px;}
+.line_info .info .info_right .detailed_left{ width: 600px; float: left; margin-top: 20px;}
+.line_info .info .info_right .detailed_left .price{ padding-top: 10px;}
+.line_info .info .info_right .detailed_left .pr_left{ width: 300px; float: left;}
+.line_info .info .info_right .detailed_left .pr_right{ width: 300px; float: right;}
+.line_info .info .info_right .detailed_left .box{ width: 100%; height: 25px; line-height: 25px; text-indent: 5px; margin: 12px 0;}
+.line_info .info .info_right .detailed_left .color_orange{ font-size: 16px;}
+.line_info .info .info_right .detailed_left .color_orange span{ font-size: 12px;}
+.line_info .info .info_right .starting{ height: 25px; line-height: 25px; font-size: 16px; color: #333; font-weight: bold; float: left;}
+.line_info .info .info_right .address .arrows{ width: 9px; height: 8px; background: url("../../images/trade/city_arrows.gif") no-repeat; float: left; margin: 9px 15px 0;}
+.line_info .info .info_right .destination{ height: 25px; line-height: 25px; font-size: 16px; color: #333; font-weight: bold; float: left; margin-right:5px;}
+.line_info .info .info_right .address span{ float: left; height: 25px; line-height: 25px; color: #333;}
+.line_info .info .info_right .color_red{ margin-top: 10px; padding-bottom: 15px; border-bottom:  1px dashed #ddd;}
+.line_info .info .info_right .box_1{ width: 200px; float: right; margin-top: 15px;}
+.line_info .info .info_right .box1_title{ height: 40px; line-height: 40px;}
+.line_info .info .info_right .box_1 .syn{ height: 40px; border-bottom: 1px solid #ddd;}
+.line_info .info .info_right .box_1 .synthesize.big{ font-size: 13px; float: left; margin: 7px 0 0 5px;}
+.line_info .info .info_right .box_1 .title{ margin: 20px 0 10px 10px;}
+.line_info .info .info_right .box_1 .synthesize.small{ margin: 0 0 5px 10px;}
+.line_info .info .info_right .box_1 .synthesize.small .s_star{ margin-left: 10px;}
+.line_info .info .info_right .box_1 .synthesize.small .s_grade{ color: #333;}
+.line_info .info .info_right .info_right_btn{ padding-top: 35px; border-top: 1px dashed #ddd;}
+.line_info .info .info_right .btn_yellow{ width: 150px; height: 38px; font-size: 18px; float: left;}
+.line_info .info .info_right .btn_gray_h38{text-indent:-8px;text-align:left;width: 120px; height: 38px; line-height: 38px; color: #666; font-size: 16px; float: left; margin: 0 20px;}
+.line_info .info .info_right .btn_gray_h38 .arrows{ width: 12px; height: 12px; background: url("../../images/trade/add.gif") no-repeat; float: left; margin: 14px 24px 0 20px;}
+.line_info .info .info_right .btn_gray_h38.yet{ color: #F08A12; text-align: center; font-weight: bold;}
+.line_info #bdshare{ float: right; margin-top: 5px;}
+.line_info .tab_click{ width: 1188; margin-top: 30px;}
+.line_info .tab_click .titles{ height: 40px; border-left: 1px solid #ddd;}
+.line_info .tab_click .title{ width: 100px; height: 39px; line-height: 40px; border-left: none; background-color: #f7f7f7; font-size: 14px;}
+.line_info .tab_click .title.visited{ border-top: 3px solid #0092FC; background-color: #fff; height: 38px; line-height: 36px;}
+.line_info .tab_click .tab_son{ border: 1px solid #ddd; border-top: none;}
+.line_info .tab_click .tab_son .box{ padding-top: 51px; margin-left: 30px;}
+.line_info .tab_click .tab_son img{ float: left;margin-bottom:40px;}
+.line_info .tab_click .tab_son .box_box{ width: 1000px; float: left; margin-left: 45px;}
+.line_info .tab_click .tab_son.introduce dl{ margin-bottom: 40px;}
+.line_info .tab_click .tab_son.introduce dt{ width: 85px; float: left;}
+.line_info .tab_click .tab_son.introduce dd{ width: 140px; float: left;}
+.line_info .tab_click .tab_son.introduce dd input{ float: left; margin: 2px 10px 0 0;}
+.line_info .tab_click .tab_son h2{ font-size: 14px; margin-bottom: 20px;}
+.line_info .tab_click .tab_son p{ margin: 0 0 20px 5px; line-height: 1.5;}
+.line_info .tab_click .tab_son .box_title{ border-bottom: 1px dashed #ddd; padding-bottom: 15px; font-size: 14px;height:35px;}
+.line_info .tab_click .tab_son .box_title .color_orange{ font-size: 24px; font-weight: bold;}
+.line_info .tab_click .tab_son .comment{ width: 100%; padding: 25px 0; border-bottom: 1px dashed #ddd;}
+.line_info .tab_click .tab_son .comment .div1{ width: 840px; float: left;}
+.line_info .tab_click .tab_son .comment .content{ margin-bottom: 15px;}
+.line_info .tab_click .tab_son .comment .color_orange{ height: 20px; line-height: 20px; float: left;}
+.line_info .tab_click .tab_son .comment .synthesize{ float: left; margin-left: 30px;}
+.line_info .tab_click .tab_son .comment .div2{ width: 160px; text-indent: 5px; float: left;}
+.line_info .tab_click .tab_son .comment .div2 .user_name{ margin-bottom: 15px;}
+.line_info .tab_click .tab_son.ask .consult_title{ width: 100%; padding-bottom: 15px; border-bottom: 1px dashed #ddd;}
+.line_info .tab_click .tab_son.ask dl{ height: 25px; border-right: 1px solid #eee; float: left;}
+.line_info .tab_click .tab_son.ask dt{ height: 25px; line-height: 25px; font-size: 14px; color: #333; float: left;}
+.line_info .tab_click .tab_son.ask dd{ width: 47px; height: 25px; background-color: #F7F7F7; line-height: 25px; text-align: center; float: left; margin-right: 20px; cursor: pointer;}
+.line_info .tab_click .tab_son.ask dd.visited{ background-color: #97DDFF; color: #fff;}
+.line_info .tab_click .tab_son.ask .btn_yellow{ width: 80px; height: 25px; font-size: 12px; float: left; margin-left: 20px;}
+.line_info .tab_click .tab_son .consult_content{ width: 100%; padding: 15px 0; border-bottom: 1px dashed #ddd;}
+.line_info .tab_click .tab_son .consult_text{ padding-left: 40px; margin-bottom: 20px; background: url("../../images/trade/ask.gif") 10px 2px no-repeat;}
+.line_info .tab_click .tab_son .consult_reply{ padding-left: 40px; background: url("../../images/trade/reply.gif") 10px 2px no-repeat;}
+.line_info .paging{float:right;}
+.line_info .paging .go{height:auto;}
+.line_info .ipt_page{margin:0 5px;}
+.line_info .nodata{line-height:50px;text-align:center;}
+.publish_consult{ width: 800px; padding-top: 30px; display: none;}
+.publish_consult .info_box{ margin: 0 0 30px 40px;}
+.publish_consult .info_box.textarea, .publish_consult .info_box.textarea .box_title, .publish_consult .info_box.textarea .box_text{ height: auto;}
+.publish_consult .info_box.textarea textarea{ width: 600px; height: 120px;}
+.publish_consult .btns{ padding-top: 0;}
+
+/* 计算器 */
+#calculator {font-size: 12px; font-family: Arial, Georgia, "Times New Roman", Times, serif; color: #555; text-align: center; background-color: #e2e2e2;}
+#calculator h6 {margin: 0; font-size: 12px;}
+#calculator {width: 240px; height: auto; overflow: hidden; border: #fff 1px solid; background-color: #f2f2f2; }
+#calculator div {clear: both;}
+#calculator ul {padding: 0; margin: 5px 14px; border: #fff 1px solid; height: auto; overflow: hidden; }
+#calculator li {list-style: none; float: left; width: 32px; height: 32px; margin: 5px; display: inline; line-height: 32px; font-size: 14px; background-color: #eaeaea;}
+#calculator li.tool {background-color: #e2e2e2; }
+#calculator li:hover {background-color: #f9f9f9; cursor: pointer;}
+#calculator li:active {background-color: #fc0; cursor: pointer; }
+#calculator li.tool:active {background-color: #d8e8ff; cursor: pointer; }
+#calculator #calcu-head {text-align: left; padding: 10px 15px 5px; }
+#calculator span.imyeah {float: right; color: #ccc; }
+#calculator span.imyeah a {color: #ccc; }
+#calculator .screen {width: 200px; height: 24px; line-height: 24px; padding: 4px; border: #e6e6e6 1px solid; border-bottom: #f2f2f2 1px solid; border-right: #f2f2f2 1px solid; margin: 10px auto; direction: ltr; text-align: right; font-size: 16px; color: #666; }
+#calculator #calcu-foot {text-align: left; padding: 10px 15px 5px; height: auto; overflow: hidden; }
+#calculator span#note {float: left; width: 210px; height: auto; overflow: hidden; color: red; }
+#calculator span.welcome {clear: both; color: #666; }
+#calculator span.welcome a {float: right; color: #666; }
+
+/* 404 */
+.not_found .main{ width: 958px; border: 1px solid #ddd; margin: 0 auto 30px;}
+.not_found .main img{ width: 308px; height: 71px; margin: 85px 0 30px 325px;}
+.not_found .main .hint{ font-size: 14px; margin: 0 0 100px 330px;}
+.not_found .main .hint span{ margin-right: 30px;}
+.not_found .main .ope{ margin: 0 0 70px 240px;}
+.not_found .main .ope a{ margin: 0 15px 0 20px;}
+
+/* 提示信息 */
+.Notice{ }
+.Notice .main{ width: 958px; border: 1px solid #ddd; margin: 0 auto 30px; padding-bottom: 180px;}
+.Notice .not{ height: 42px; line-height: 42px; margin: 90px 0 55px 245px; color: #333;}
+.Notice .not .img{ width: 42px; height: 42px; background: url("../../images/trade/hint.gif") no-repeat; float: left; margin-right: 30px;}
+.Notice .not.succeed .img{ background-position: 0 -84px;}
+.Notice .not.caution .img{ background-position: 0 0;}
+.Notice .not.failure .img{ background-position: 0 -42px;}
+.Notice .not .text{ float: left; line-height: 23px;}
+.Notice .hint{ margin: 0 0 100px 245px;}
+.Notice .main .ope{ margin-left: 240px;}
+.Notice .main a{ margin: 0 25px;}
+
+/* 特惠专区 */
+.preference{ }
+.preference .main{ width: 1190px; margin: 0 auto 30px;}
+.preference .box_title{ width: 100%; height: 35px; border-bottom: 2px solid #0079D6; font-size: 16px; color: #333; position: relative;}
+.preference .box_title .arrows{ width: 15px; height: 8px; background: url("../../images/trade/box3_title_arrows.png") no-repeat; position: absolute; bottom: 0px; left: 25px;}
+.preference .box_title a{ height: 20px; background: url("../../images/trade/a_bg.gif") no-repeat; line-height: 20px; text-indent: 30px; font-size: 12px; float: right; margin: 7px 5px 0 0;}
+.preference .box_content ul{ width: 1200px;}
+.preference .box_content ul li{ width: 228px; border: 1px solid #DEDEDE; float: left; margin: 24px 10px 0 0; position: relative;}
+.preference .box_content ul li:hover{ border: 1px solid #f08a12;}
+.preference ul li .discount{width: 43px; height: 32px; position: absolute; top: -4px; left: 9px;}
+.preference .sales_pro{ margin: 10px 0 25px;}
+.preference .low_price{ margin-bottom: 25px;}
+.preference .sales_pro ul li .discount{ background: url(../../images/trade/discount1.gif) no-repeat;}
+.preference .low_price ul li .discount{ background: url(../../images/trade/discount2.gif) no-repeat;}
+.preference .box_content ul li .cont{ width: 207px; margin: auto;}
+.preference .box_content ul li i{ display: block; height: 40px; line-height: 40px; font-size: 20px; text-align: right;}
+.preference .box_content ul li i span{ font-size: 12px; margin-left: 5px;}
+.preference .box_content ul li img{ width: 207px; height: 124px;}
+.preference .box_content ul li .address{ width: 100%; margin-top: 10px;}
+.preference .box_content ul li .address .origin{ width: 60px; height: 18px; line-height: 18px; color: #333; text-indent: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; float: left;}
+.preference .box_content ul li .address .arrow{ width: 28px; height: 18px; background: url(../../images/website/arrow.gif) 0 6px no-repeat; float: left;}
+.preference .box_content ul li .address .destination{ height: 18px; line-height: 18px; color: #333; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; float: left;}
+.preference .box_content ul li .price{ height: 85px; position: relative;}
+.preference .box_content ul li .price div{ line-height:30px; text-indent: 5px;}
+.preference .box_content ul li .price_box{ width: 218px; height: auto; padding: 5px 0 7px 10px; background-color: #FFFFD0; border: 1px solid #FFAD7A; text-indent: 20px; position: absolute; top: 95px; left: 10px; z-index: 9999; display: none;}
+.preference .box_content ul li .price_box .arrows{ width: 20px; height: 13px; background: url(../../images/trade/price_arrows.png) no-repeat; float: left; margin: -16px 0 0 60px;}
+.preference .box_content ul li .price_box .color_orange{ font-size: 12px;}
+.preference .box_content ul li .color_orange{ font-size: 14px; margin-left: 5px;}
+.preference .box_content ul li .add_up{ width: 113px; height: 38px; line-height: 38px; border-top: 1px solid #DEDEDE; border-right: 1px solid #DEDEDE; float: left; text-align: center; margin-top: 15px;}
+.preference .box_content ul li .comment{ width: 114px; height: 38px; line-height: 38px; border-top: 1px solid #DEDEDE; float: left; text-align: center; margin-top: 15px;}
+
+/* 货物追踪 */
+.goodstrack .main{ width: 960px; margin: auto;}
+.goodstrack .box_1{ width: 958px; color: #333; margin: 0 auto 20px;}
+.goodstrack .track_number{ width: 372px; margin: 20px auto; font-size: 12px;}
+.goodstrack .track_number textarea{ width: 360px; height:100px;}
+.goodstrack .track_number img{ position: relative; top:8px;}
+.goodstrack .track_number .security_code{ margin-top: 5px;}
+.goodstrack .track_number .code{ width: 60px; height: 24px; border:1px solid #dadada;}
+.goodstrack .track_number .security_code img{ width: 60px; height: 24px; margin-left: 15px; position: relative; top:6px;}
+.goodstrack .track_number .security_code .btn_yellow{ width: 80px; height: 24px; float: right; margin-top: 7px;}
+.goodstrack .cut_line{ color: #000;}
+.goodstrack .tab_click .titles{ position: absolute; top:5px; left:110px;}
+.goodstrack .tab_click .title{ height:16px; line-height:16px; border-left: 1px solid #8A8A8A; font-size: 12px; color: #004ea1; float:left; margin: 2px 3px 0;}
+.goodstrack .tab_click .title.first{ border: none;}
+.goodstrack .tab_click .title.visited { color: #ff0000; text-decoration: none; cursor: default;}
+.goodstrack .tab_click table{ margin:20px auto 5px; text-align: center;}
+.goodstrack .tab_click table tr{ height: 50px; line-height: 25px;}
+.goodstrack .tab_click table tr.first{ height: 25px; background-color:#f5f5f5;}
+.goodstrack .tab_click table th{ font-weight: bold;}
+.goodstrack .tab_click table th, .goodstrack .tab_click table td{ border: 1px solid #dadada; color: #333;}
+.goodstrack .tab_click table td.state{ text-align: left; text-indent: 5px;}
+.goodstrack .not_info{ font-size: 30px; font-weight: bold; color: #666; text-align: center; padding: 30px 0;}
+
+/*注册选角色*/
+.re_chose .role_box{width:998px;border:1px solid #ddd; margin:0 auto; margin-top:30px;padding-top:30px; margin-bottom:13px;}
+.re_chose .prompt{position:relative; width:780px;border:1px solid #FFAD78;  border-bottom-width:2px;background:#FFFFD0;margin:0 auto; line-height:36px; padding:0 40px 0 60px;margin-top:30px;}
+.re_chose .prompt_ico{position:absolute; background: url(../../images/trade/set_shop_ico1.fw.png) no-repeat; width:14px;height:14px; left:19px;top:12px;}
+.re_chose .prompt_pass{position:absolute; background: url(../../images/trade/set_shop_ico3.png) no-repeat; width:14px;height:14px; left:19px;top:12px;}
+.re_chose .prompt_fail{position:absolute; background: url(../../images/trade/set_shop_ico2.png) no-repeat; width:14px;height:14px; left:19px;top:12px;}
+.re_chose .prompt_close{position:absolute;color:#F89015; right:12px; top:-4px;line-height:36px;font-size:14px;}
+.re_chose .role_list{width:880px; margin:0 auto; padding-top:50px;}
+.re_chose .role_list li{ cursor:pointer;display:inline;margin-bottom:30px; float:left;width:275px;height:180px; border:2px solid #ddd; padding-left:125px; background: url(../../images/trade/register1.jpg) no-repeat 4px center;}
+.re_chose .role_list li.active{border-color:#FFAD78;}
+.re_chose .li_title{font-size:24px; color:#333; height:80px;line-height:80px;}
+.re_chose .li_title span{font-size:14px; color:#666; padding-left:24px;}
+.re_chose .role_list p{ padding-left:15px;background: url(../../images/trade/text_list_style.png) no-repeat left center; height:20px;line-heihgt:20xp;}
+.re_chose .role_list li.li_2{background: url(../../images/trade/register2.jpg) no-repeat 4px center;}
+.re_chose .role_list li.li_3{background: url(../../images/trade/register3.jpg) no-repeat 4px center;margin-right:70px;}
+.re_chose .role_list li.li_4{background: url(../../images/trade/register4.jpg) no-repeat 24px center;}
+.re_chose .role_list li.li_1{margin-right:70px;}
+.re_chose .footer{ border-top:2px solid #017AD6; color:#666;}
+.re_chose .footer a{color:#666;}
+
+/* 下单时用户登录弹框  未登录*/
+.Login_bounced{ width: 315px; height: 317px; border: 1px solid #ddd; float: right; position: relative;}
+.Login_bounced .con_title{ margin: 25px 0 10px 30px;}
+.Login_bounced .con_text{ margin-left: 30px; margin-bottom: 25px; position: relative;}
+.Login_bounced .code{ height: 24px; line-height: 24px; position: absolute; top: 170px; left: 30px;}
+.Login_bounced .code span, .login .main .code input, .login .main .code a, .login .main .code img{ float: left;}
+.Login_bounced .code img{ height: 22px; margin-left: 10px;}
+.Login_bounced .code a{ margin: 0 0 0 5px;}
+.Login_bounced .remember{ margin: 60px 0 15px 30px;}
+.Login_bounced .remember span{ margin-right: 7px;}
+.Login_bounced .remember input{ margin-right: 3px; position: relative; top: 2px;}
+.Login_bounced .btn_yellow{ width: 250px; height: 30px; margin: 0 0 0 30px; border-radius: 5px; -moz-border-radius: 5px;}
+.Login_bounced .forget{ margin: 15px 0 0 30px;}
+.Login_bounced .forget span{ float: right; margin-right: 36px;}
+.Login_bounced .third{ margin: 20px 0 0 30px;}
+.Login_bounced .third span, .login .main .third a{ height: 17px; line-height: 17px; color: #666; float: left;}
+.Login_bounced .third a.qq{ width: 65px; background: url("../../images/trade/third.png") no-repeat; text-indent: 25px; margin-left: 15px; cursor: pointer;}
+.Login_bounced .third a.weibo{ width: 65px; background: url("../../images/trade/third.png") 0 -17px no-repeat; text-indent: 25px; cursor: pointer;}
+.Login_bounced .third a.taobao{ width: 65px; background: url("../../images/trade/third.png") 0 -34px no-repeat; text-indent: 25px; cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

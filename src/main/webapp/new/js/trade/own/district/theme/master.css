@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+/*省市控件*/
+.dpcity { width:305px; position:absolute; background:#FFF; display:none; z-index: 29891015; }
+.dpcity a{ font-size:12px;}
+.dpcity .tabs { height:23px; position:relative;}
+.dpcity .tabs ul{ border-left:1px solid #004ea1; position:absolute; bottom:-1px;}
+.dpcity .tabs li { float:left;}
+.dpcity .tabs li a, .dpcity .tabs li a:visited { display:block; width:75px; height:23px; line-height:23px; text-align:center; text-decoration:none; border-right:1px solid #004ea1; border-top:1px solid #004ea1; color:#205fa2;background:#e7ebee; position:relative; z-index: 100;}
+.dpcity .tabs li a.current, .dpcity .tabs li a.current:visited { height:24px; background:#fff; color:#666;}
+.dpcity .con { height:110px; border:1px solid #d6d6d6; border-top:1px solid #004ea1; padding:9px; }
+
+.dpcity .hotCity { width:284px; margin:auto }
+.dpcity .hotCity li { float:left; width:69px; text-align:center; overflow:hidden; padding:3px 0; margin-bottom: 5px; display: inline; padding-left: 2px;}
+.dpcity .hotCity li a, .dpcity .hotCity li a:visited { color:#777777 }
+.dpcity .hotCity li a.current, .dpcity .hotCity li a.current:visited { color:#004ea1 }
+
+
+.dpcity .province { }
+.dpcity .province .pre a, .dpcity .province .pre a:visited { float:left; width:29px; height:109px; background:url(bg_mc_0113_4.png) left center no-repeat; }
+.dpcity .province .pre a.can, .dpcity .province .pre a.can:visited { background:url(bg_mc_0113_4.png) -87px center no-repeat; }
+.dpcity .province .next a, .dpcity .province .next a:visited { float:right; width:29px; height:109px; background:url(bg_mc_0113_4.png) -58px center no-repeat; }
+.dpcity .province .next a.can, .dpcity .province .next a.can:visited { background:url(bg_mc_0113_4.png) -29px center no-repeat; }
+.dpcity .province .list { float:left; width:225px; }
+.dpcity .province .list li { float:left; width:69px; text-align:center; overflow:hidden; padding:2px 0; margin-bottom: 5px; padding-left: 5px; }
+.dpcity .province .list li a, .dpcity .province .list li a:visited { color:#777777 }
+.dpcity .province .list li a.current, .dpcity .province .list li a.current:visited { color:#004ea1 }
+
+
+
+.dpcity .city .pre a, .dpcity .province .pre a:visited { float:left; width:29px; height:109px; background:url(bg_mc_0113_4.png) left center no-repeat; }
+.dpcity .city .pre a.can, .dpcity .province .pre a.can:visited { background:url(bg_mc_0113_4.png) -87px center no-repeat; }
+.dpcity .city .next a, .dpcity .province .next a:visited { float:right; width:29px; height:109px; background:url(bg_mc_0113_4.png) -58px center no-repeat; }
+.dpcity .city .next a.can, .dpcity .province .next a.can:visited { background:url(bg_mc_0113_4.png) -29px center no-repeat; }
+.dpcity .city .list { float:left; width:225px; }
+.dpcity .city li { float:left; width:69px; text-align:center; overflow:hidden; padding:2px 0; margin-bottom: 5px; padding-left: 5px;}
+.dpcity .city li a, .dpcity .city li a:visited { color:#777777 }
+.dpcity .city li a.current, .dpcity .city li a.current:visited { color:#004ea1 }
+
+.dpcity .county .pre a, .dpcity .province .pre a:visited { float:left; width:29px; height:109px; background:url(bg_mc_0113_4.png) left center no-repeat; }
+.dpcity .county .pre a.can, .dpcity .province .pre a.can:visited { background:url(bg_mc_0113_4.png) -87px center no-repeat; }
+.dpcity .county .next a, .dpcity .province .next a:visited { float:right; width:29px; height:109px; background:url(bg_mc_0113_4.png) -58px center no-repeat; }
+.dpcity .county .next a.can, .dpcity .province .next a.can:visited { background:url(bg_mc_0113_4.png) -29px center no-repeat; }
+.dpcity .county .list { float:left; width:225px; }
+.dpcity .county li { float:left; width:69px; text-align:center; overflow:hidden; padding:2px 0; margin-bottom: 5px; padding-left: 5px; }
+.dpcity .county li a, .dpcity .county li a:visited { color:#777777 }
+.dpcity .county li a.current, .dpcity .county li a.current:visited { color:#004ea1 }
+
+/*省市模糊查询*/
+#dimCityQuery { position:absolute; border:1px solid #d6d6d6; background:#FFF; display:none; width: 300px; font-size: 12px; z-index: 29891015; }
+#dimCityQuery li a, #dimCityQuery li a:visited { display:block; text-indent:10px; line-height:26px; color:#777777; text-decoration:none; font-size: 12px; }
+#dimCityQuery li a span{ font-size: 12px;}
+#dimCityQuery li.current a , #dimCityQuery li.current a:visited { background:#e8eaf3; } 
+#dimCityQuery li.none { height:26px; padding:0 15px; line-height:26px; color:#777777; }
+#dimCityQuery .page a{margin: 0px 5px;  padding:0px 5px;}
+#dimCityQuery .page .current{color:red;text-decoration: none;}
+#dimCityQuery .page{display: block;text-align:center;}

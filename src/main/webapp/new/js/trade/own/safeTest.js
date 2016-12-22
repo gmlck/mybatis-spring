@@ -1,0 +1,40 @@
+$(function(){
+	//通过手机验证
+	var modifyMsg=$("#modifyMsg").val();
+	$("#phoneModify").live("click",function(){
+		$(this).addClass("disabled");
+		$("#emailModify").addClass("disabled");
+		$("#safeModify").addClass("disabled");
+		var phoneNum = $("#mobilePhone").val();
+		$.ajax({
+			url:"../phoneCode.do",
+			type:"post",
+			data:{"mobilePhone":phoneNum},
+			cache:false,
+			async:false,
+			success:function(data){
+				if(data.isSuccess==1){
+					window.location.href=encodeURI("phoneModify.do?modifyMsg="+encodeURIComponent(modifyMsg));
+				}else{
+					/*$.alertPlus(data.msg,"2","提示");有iframe的用这个，没有的用下面的*/
+					$("#phoneModify").removeClass("disabled").addClass("btn_yellow");
+					layer.alert(data.msg, 2, "提示");
+				}
+			}
+		});
+	});
+	//通过邮箱验证
+	$("#emailModify").live("click",function(){
+		$(this).addClass("disabled");
+		$("#phoneModify").addClass("disabled");
+		$("#safeModify").addClass("disabled");
+		window.location.href=encodeURI("sendMail.do?modifyMsg="+encodeURIComponent(modifyMsg));
+	});
+	//通过密保问题验证
+	$("#safeModify").live("click",function(){
+		$(this).addClass("disabled");
+		$("#phoneModify").addClass("disabled");
+		$("#emailModify").addClass("disabled");
+		window.location.href=encodeURI("safeModify.do?modifyMsg="+encodeURIComponent(modifyMsg));
+	});
+});  

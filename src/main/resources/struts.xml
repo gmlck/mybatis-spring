@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- 否支持动态方法调用 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<!-- 开发模式，可以打印出更详细的错误信息 -->
+	<constant name="struts.devMode" value="false" />
+	<!-- 将struts的action交由spring管理  不在由struts的工厂介入 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<!-- 支持.do的后缀 -->
+	<constant name="struts.action.extension" value="action,do" />
+	<!-- 指定Web应用的默认编码集 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- Web应用的默认Locale -->
+	<constant name="struts.locale" value="zh-CN" />
+	<!--struts配置文件更改后是否自动重新加载，默认false（生产环境下使用），开发环境最好打开 -->
+	<constant name="struts.configuration.xml.reload" value="true" />
+	<!-- 运行访问静态方法--> 
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+	<!-- i18n国际化资源文件 -->
+	<constant name="struts.custom.i18n.resources" value="system"></constant>
+	<!-- 去除struts标签默认生成的html代码 胡晓通 2013-07-22 -->
+	<constant name="struts.ui.theme" value="simple" /> 
+	<constant name="struts.ui.templateDir" value="template" /> 
+	<constant name="struts.ui.templateSuffix" value="ftl" /> 
+	
+	
+	<package name="non-authority" extends="json-default">
+		<interceptors>
+			<interceptor name="loginedCheck" class="com.asgard.bms.business.interceptor.LoginedCheckInterceptor">
+				<param name="excludeMethods">login,makeValidateCode,registerPersonal,register,getPersonInfo</param>
+			</interceptor>
+			<interceptor-stack name="basicSecurity">
+				<interceptor-ref name="loginedCheck">
+				</interceptor-ref>
+				<interceptor-ref name="basicStack">
+				</interceptor-ref>
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="basicSecurity"></default-interceptor-ref>
+		
+		<!-- 定义全局result -->  
+        <global-results>  
+            <!-- 定义名为exception的全局result -->  
+            <result name="exception">/exception.jsp</result>  
+            <result name="tologin">/WEB-INF/login.jsp</result>  
+        </global-results>  
+        
+        
+	</package>
+		
+		
+		
+	  
+	<include file="com/asgard/**/struts.xml"></include>
+	<include file="com/asgard/**/config/*.xml"></include>
+	
+</struts>

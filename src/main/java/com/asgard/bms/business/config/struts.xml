@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+	
+	<package name="cmsPackage" extends="struts-default" namespace="/cms">
+		<action name="queryPerson" class="personAction" method="queryPersonByPhone">
+			<result name="success">/WEB-INF/jsp/new/cms/person/personList.jsp</result>
+		</action>
+	</package>
+	
+	<package name="infoRegister" extends="non-authority">
+	
+	    <!-- 生成随机验证码 -->
+		<action name="makeValidateCode" class="infoRegisterAction" method="makeValidateCode">
+		</action>
+	
+	   <action name="login" class="loginAction" method="login">
+			<result name="success" type="json"></result>
+			<result name="error" type="json"></result>
+			<result name="errorpage">/WEB-INF/login.jsp</result>
+		</action>
+		
+		<!-- <action name="toLoginPage" class="loginAction" method="toLoginPage">
+			<result name="success">/WEB-INF/login.jsp</result>
+		</action> -->
+		<!-- 到达主页 -->
+		<action name="toIndexPage" class="loginAction" method="toIndexPage">
+			<result name="success">/WEB-INF/loPrCenter.jsp</result>
+		</action>
+		
+	
+		<action name="registerPersonal" class="loginAction" method="registerPersonal">
+			<result name="success">/WEB-INF/registerPersonl.jsp</result>
+		</action>
+		<!-- 检查用户名是否存在 -->
+		<action name="checkName" class="loginAction" method="checkName">
+			<result name="success" type="json">
+				<param name="json">checkResult</param>  
+			</result>
+		</action>
+		
+		<!-- 注册用户 -->
+		<action name="register" class="loginAction" method="register">
+			<result name="success" type="json"></result>
+			<result name="error" type="json"></result>
+		</action>
+		
+		
+		<action name="getPersonInfo" class="loginAction" method="getPersonInfo">
+			<result>infoUserList.jsp</result>
+		</action>
+		
+		
+	</package>
+</struts>    

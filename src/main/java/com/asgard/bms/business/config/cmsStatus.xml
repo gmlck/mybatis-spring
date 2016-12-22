@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="cmsInfo" extends="non-authority">
+		<!-- 短信平台列表首页 -->
+		<action name="toCmsIndexPage" class="cmsInfoAction" method="toCmsIndexPage">
+			<result name="success">/WEB-INF/tradeCmsNewsIndex.jsp</result>
+		</action>
+		<!-- 短信平台列表页 -->
+		<action name="queryCmsAdminNewsInfo" class="cmsInfoAction" method="queryCmsAdminNewsInfo">
+			<result name="success">/WEB-INF/tradeCmsNewsList.jsp</result>
+		</action>
+		
+	</package>
+    	
+</struts>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.asgard.bms.business.mapper.InfoUser">
+    <resultMap id="infoUser" type="com.asgard.bms.business.model.InfoUser">
+        <id column="ID" property="id" jdbcType="VARCHAR"/>
+        <result column="USERNAME" property="userName" jdbcType="VARCHAR"/>
+        <result column="PASSWORD" property="password" jdbcType="VARCHAR"/>
+        <result column="CREATE_USER" property="createUser" jdbcType="VARCHAR"/>
+        <result column="CREATE_DATE" property="createDate" jdbcType="VARCHAR"/>
+        <result column="IS_VALID" property="isValid" jdbcType="INTEGER"/>
+        <result column="LATEST_OP_DATE" property="latestOpDate" jdbcType="VARCHAR"/>
+        <result column="LATEST_OP_USER" property="latestOpUser" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+    <select id="queryByUserName" parameterType="com.asgard.bms.business.model.InfoUser" resultMap="infoUser">
+        SELECT * FROM INFO_USER IU
+
+        <where>
+            IU.IS_VALID=1
+            <if test="userName !=null and userName!=''">
+                AND IU.USERNAME=#{userName,jdbcType=VARCHAR}
+            </if>
+            <if test="password !=null and password!=''">
+                AND IU.PASSWORD=#{password,jdbcType=VARCHAR}
+            </if>
+        </where>
+    </select>
+
+
+    <insert id="insertUser" parameterType="com.asgard.bms.business.model.InfoUser">
+	INSERT INTO INFO_USER(ID,USERNAME,PASSWORD,CREATE_USER,CREATE_DATE,IS_VALID) 
+			VALUES(
+			    #{id,jdbcType=VARCHAR},
+				#{userName,jdbcType=VARCHAR},
+				#{password,jdbcType=VARCHAR},
+				#{createUser,jdbcType=VARCHAR},
+				#{createDate,jdbcType=VARCHAR},
+				#{isValid,jdbcType=INTEGER}
+			);
+</insert>
+
+    <select id="queryUserCount" parameterType="com.asgard.bms.business.model.InfoUser" resultType="int">
+        select count(1) from INFO_USER IU
+        <where>
+            IU.IS_VALID=1
+            <if test="userName !=null and userName!=''">
+                AND IU.USERNAME=#{userName,jdbcType=VARCHAR}
+            </if>
+            <if test="password !=null and password!=''">
+                AND IU.PASSWORD=#{password,jdbcType=VARCHAR}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>

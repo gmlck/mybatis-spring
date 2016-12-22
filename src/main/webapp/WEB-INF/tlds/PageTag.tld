@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"  
+"http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.0</tlib-version><!-- 标签库的版本 -->
+	<jsp-version>1.2</jsp-version><!-- 这个标签库要求的JSP规范版本 -->
+	<short-name>page</short-name><!-- JSP页面编写工具可以用来创建助记名的可选名字 -->
+	<uri>http://www.anps.com/tags/page</uri>
+	
+	<tag>
+		<name>page</name><!-- 唯一标签名 -->
+		<tag-class>com.asgard.cdap.PageTag</tag-class><!-- 标签Tag类的完全限定名 -->
+		<body-content>empty</body-content><!-- 正文内容类型 -->
+		<!-- JS函数 -->
+		<attribute>
+			<name>function</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<!-- 分页数据 -->
+		<attribute>
+			<name>page</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<!-- iframe的ID，当在iframe外部使用分页时必填 -->
+		<attribute>
+			<name>iframeId</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<!-- 每页数据量，格式为：5,15,20,25 -->
+		<attribute>
+			<name>pageList</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<!-- 是否显示每页数据量 -->
+		<attribute>
+			<name>showPageList</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<!-- 分页标签的class，用于控制样式 -->
+		<attribute>
+			<name>cssClass</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+		<!-- 跳转页按钮value值 -->
+		<attribute>
+			<name>btnValue</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+	</tag>
+	
+</taglib> 
